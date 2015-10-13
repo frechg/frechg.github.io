@@ -1,0 +1,56 @@
+// FontAwesome
+///////////////////////////////////////////////////////////////////////////////
+$fa-enable-utilities: false;
+
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+$sans-serif: 'Lato', $helvetica;
+$serif: 'Playfair Display SC', $georgia;
+$icon-font: 'FontAwesome';
+
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;
+
+// Sizes
+///////////////////////////////////////////////////////////////////////////////
+$base-font-size: 1.2em;
+$base-line-height: $base-font-size * 1.5;
+$base-border-radius: em(3);
+
+// Colors
+///////////////////////////////////////////////////////////////////////////////
+
+$blue: #477DCA;
+
+$light-gray: #DDD;
+$medium-gray: #999;
+$dark-gray: #333;
+
+$light-green: #E6EFC2;
+$green: rgb(123, 243, 137);
+
+$light-yellow: #FFF6BF;
+
+$light-red: #FBE3E4;
+$red: rgb(245, 95, 95);
+
+// Body Color
+$base-body-color: white;
+
+//  Font Colors
+$base-font-color: rgb(70,70,70);
+$base-accent-color: $blue;
+$light-font-color: rgb(160,160,160);
+$medium-font-color: rgb(120,120,120);
+
+//  Text Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+
+// Border color
+$base-border-color: $light-gray;
+
+// Flash Colors
+$error-color: $light-red;
+$notice-color: $light-yellow;
+$success-color: $light-green;

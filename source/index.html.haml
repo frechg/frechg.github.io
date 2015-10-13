@@ -1,0 +1,162 @@
+---
+---
+
+%header.portfolio
+  %article
+    .inner-wrapper
+      .avatar{style: "background-image: url(#{image_path('avatar.jpg')})"}
+      %h1
+        Galen Frechette
+      %nav
+        = link_to 'Dribble', 'http://dribbble.com/GalenFrechette', target: '_blank'
+        = link_to 'Writing', 'http://robots.thoughtbot.com/the-product-design-sprint', target: '_blank'
+        = link_to 'Github', 'https://github.com/frechg', target: '_blank'
+        = mail_to 'galenfrechette@gmail.com', 'Contact'
+
+  = link_to '#gallery', class: 'view-gallery' do
+    %i.fa.fa-arrow-down
+
+.container
+  %section#gallery
+    %article.piece
+      %figcaption
+        .title
+          %h2 Cardless
+          %span Personal Project - In Progress
+      %figure
+        = link_to '#cardless', class: 'show-more' do
+          .image-wrapper= image_tag('cardless/cover_2.png')
+
+      .modal#cardless
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper.no-border= image_tag('cardless/contacts_1.png')
+          %li.project-image
+            .image-wrapper.no-border= image_tag('cardless/contact_profile_1.png')
+          %li.project-image
+            .image-wrapper.no-border= image_tag('cardless/contact_profile_2.png')
+          %li.project-image
+            .image-wrapper.no-border= image_tag('cardless/my_profile.png')
+
+    %article.piece
+      %figcaption
+        .title
+          %h2 Tenant.io
+          %span 4th Place, 2013 Rails Rumble - 48 hrs
+      %figure
+        = link_to '#tenant', class: 'show-more' do
+          .image-wrapper= image_tag('tenant/cover.jpg')
+
+      .modal#tenant
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper= image_tag('tenant/tenant_home.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('tenant/tenant_signin.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('tenant/tenant_dashboard.jpg')
+
+    %article.piece
+      %figcaption
+        .title
+          %h2 Blue Sky
+          %span Febuary 2013 - Client Project
+      %figure
+        = link_to '#blue-sky', class: 'show-more' do
+          .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
+
+      .modal#blue-sky
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/courses_1.png')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/courses_2.png')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/assessment_admin_view.png')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/assessment_question_modal.png')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/assessment_mobile_2.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/assessment_mobile_finish_1.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/course_nav.png')
+          %li.project-image
+            .image-wrapper= image_tag('blue_sky/home_mobile_2.jpg')
+
+        = link_to 'View more on Dribble', 'http://dribbble.com/GalenFrechette/projects/186446-Blue-Sky',
+          class: 'view-more-work', target: '_blank'
+
+    %article.piece
+      %figcaption
+        .title
+          %h2 Gift of Knowledge
+          %span January 2013 - Client Project
+      %figure
+        = link_to '#gift-of-knowledge', class: 'show-more' do
+          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
+
+    .modal#gift-of-knowledge
+      = link_to '', '#', class: 'close'
+      %ul.project-images
+        %li.project-image
+          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_landing.jpg')
+        %li.project-image
+          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
+        %li.project-image
+          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_thankyou.jpg')
+        %li.project-image
+          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_create_account.jpg')
+        %li.project-image
+          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_faq.jpg')
+
+    %article.piece
+      %figcaption
+        .title
+          %h2 edX
+          %span May 2012 - Client Project
+      %figure
+        = link_to '#edx', class: 'show-more' do
+          .image-wrapper
+            = image_tag('edx/cover.jpg')
+
+      .modal#edx
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper= image_tag('edx/edx-home.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('edx/edx-login.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('edx/edx-courses.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('edx/edx-course.jpg')
+
+    %article.piece
+      %figcaption
+        .title
+          %h2 Design with Boston
+          %span November 2011 - thoughbot Event
+      %figure
+        = link_to '#design-boston', class: 'show-more' do
+          .image-wrapper
+            = image_tag('design_boston/design-with-boston.jpg')
+
+      .modal#design-boston
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper
+              = image_tag('design_boston/design-with-boston.jpg')
+          %li.project-image
+            .image-wrapper
+              %video{ loop: 'true', controls: 'true' }
+                %source{src: 'images/design_boston/dwb.m4v', type: 'video/mp4'}
+
+  = link_to 'View more projects on Dribble', 'http://dribbble.com/GalenFrechette/projects',
+    class: 'view-more-work', target: '_blank'

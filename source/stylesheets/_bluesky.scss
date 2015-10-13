@@ -1,0 +1,110 @@
+section.project-overview {
+  margin: 3em 0;
+  text-align: left;
+
+  .title {
+    margin: 0 2em 3em;
+
+    h1 {
+      color: $medium-font-color;
+      letter-spacing: 1px;
+      font-family: $sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    span {
+      color: $light-font-color;
+      font-family: $sans-serif;
+      font-size: 0.7em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+
+  .inner-wrapper {
+    @include span-columns(8 of 12);
+    @include shift(2);
+    margin-bottom: 15%;
+    position: relative;
+  }
+
+  article {
+    color: $base-font-color;
+    margin-bottom: 4em;
+
+    .image-wrapper {
+      margin-bottom: 4em;
+    }
+
+    .narative {
+      margin: 0 2em;
+    }
+
+    ul, ol {
+      // margin-right: 20%
+      margin-bottom: 1.25em;
+
+      li {
+        margin-bottom: 0.5em;
+      }
+    }
+
+    ul {
+      list-style: circle;
+    }
+
+    ol {
+      list-style: decimal;
+    }
+
+    p {
+      color: $medium-font-color;
+      font-weight: 400;
+      margin-bottom: 0.6em;
+
+    }
+
+    h2 {
+      color: $medium-font-color;
+      font-size: 1.8em;
+      font-weight: 300;
+      line-height: normal;
+      margin: 0 0 1em;
+
+      &.pull {
+        // margin: 2em 1em;
+        // text-align: center;
+      }
+    }
+
+    h3 {
+      color: $base-font-color;
+      font-size: 0.9em;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: normal;
+      margin-bottom: 1.25em;
+      text-transform: uppercase;
+    }
+
+    p, h2, h3 {
+      & + .pull {
+        margin-top: 1em;
+      }
+
+      & + h3 {
+        margin-top: 3em;
+      }
+
+      & + .image-wrapper {
+        margin-top: 2em;
+      }
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}

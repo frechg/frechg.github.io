@@ -1,0 +1,96 @@
+$time-line-color: rgb(230,230,230);
+
+.resume-wrapper {
+  @include span-columns(8 of 12);
+  @include shift(2);
+  padding: 4em 0;
+  position: relative;
+  text-align: left;
+
+  &:before {
+    @include position(absolute, 0px 0 0px 0px);
+    background: $time-line-color;
+    content: '';
+    display: block;
+    width: 3px;
+    z-index: 1;
+  }
+}
+
+header.resume {
+  margin-bottom: 6em;
+  padding: 0 0 0 5em;
+  position: relative;
+  z-index: 2;
+
+  .avatar {
+    @include position(absolute, -15px 0 0 -60px);
+    @include size(120px);
+    background-color: rgb(240,240,240);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 0 6px #fff, 0 0 0 8px $time-line-color;
+  }
+
+  .title {
+    overflow: hidden;
+  }
+
+  h1 {
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 2.75em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: $light-font-color;
+    letter-spacing: 6px;
+    font-weight: 300;
+    font-size: 0.8em;
+    font-family: $serif;
+    text-transform: uppercase;
+    padding-left: 0.3em;
+  }
+}
+
+ol.time-line {
+  padding: 0 0 0 5em;
+  position: relative;
+  z-index: 2;
+
+  li.point {
+  }
+
+  h3 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.6em;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+
+  .dates {
+    color: $light-font-color;
+    font-family: $serif;
+    font-size: 0.8em;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+  }
+
+  p.desc {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+}
