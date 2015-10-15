@@ -21,8 +21,29 @@
     %article.piece
       %figcaption
         .title
+          %h2 Hound
+          %span Winter 2015 - thoughtbot Product
+      %figure
+        = link_to '#hound', class: 'show-more' do
+          .image-wrapper= image_tag('hound/dashboard.jpg')
+
+      .modal#hound
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper= image_tag('hound/home.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('hound/dashboard.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('hound/docs.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('hound/faq.jpg')
+
+    %article.piece
+      %figcaption
+        .title
           %h2 Cardless
-          %span Personal Project - In Progress
+          %span December 2013 - Personal Project
       %figure
         = link_to '#cardless', class: 'show-more' do
           .image-wrapper= image_tag('cardless/cover_2.png')
@@ -53,8 +74,6 @@
         %ul.project-images
           %li.project-image
             .image-wrapper= image_tag('tenant/tenant_home.jpg')
-          %li.project-image
-            .image-wrapper= image_tag('tenant/tenant_signin.jpg')
           %li.project-image
             .image-wrapper= image_tag('tenant/tenant_dashboard.jpg')
 

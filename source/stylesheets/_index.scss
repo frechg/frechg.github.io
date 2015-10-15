@@ -104,8 +104,8 @@ a.view-more-work {
   padding: 5% 0 0;
 
   article.piece {
-    @include span-columns(8 of 12);
-    @include shift(2);
+    @include span-columns(10 of 12);
+    @include shift(1);
     margin-bottom: 15%;
     position: relative;
 
