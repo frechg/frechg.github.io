@@ -8,10 +8,11 @@
       %h1
         Galen Frechette
       %nav
-        = link_to 'Dribble', 'http://dribbble.com/GalenFrechette', target: '_blank'
-        = link_to 'Writing', 'http://robots.thoughtbot.com/the-product-design-sprint', target: '_blank'
-        = link_to 'Github', 'https://github.com/frechg', target: '_blank'
-        = mail_to 'galenfrechette@gmail.com', 'Contact'
+        %span Product designer in San Francisco, CA
+        -# = link_to 'Dribble', 'http://dribbble.com/GalenFrechette', target: '_blank'
+        -# = link_to 'Writing', 'http://robots.thoughtbot.com/the-product-design-sprint', target: '_blank'
+        -# = link_to 'Github', 'https://github.com/frechg', target: '_blank'
+        -# = mail_to 'galenfrechette@gmail.com', 'Contact'
 
   = link_to '#gallery', class: 'view-gallery' do
     %i.fa.fa-arrow-down
@@ -25,7 +26,7 @@
           %span Winter 2015 - thoughtbot Product
       %figure
         = link_to '#hound', class: 'show-more' do
-          .image-wrapper= image_tag('hound/dashboard.jpg')
+          .image-wrapper= image_tag('hound/cover.jpg')
 
       .modal#hound
         = link_to '', '#', class: 'close'
@@ -38,6 +39,43 @@
             .image-wrapper= image_tag('hound/docs.jpg')
           %li.project-image
             .image-wrapper= image_tag('hound/faq.jpg')
+
+    %article.piece
+      %figcaption
+        .title
+          %h2 Kinscape
+          %span Spring 2014 - Client Project
+      %figure
+        = link_to '#kinscape', class: 'show-more' do
+          .image-wrapper= image_tag('kinscape/stories.jpeg')
+
+      .modal#kinscape
+        = link_to '', '#', class: 'close'
+        %ul.project-images
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/stories.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/family_1.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/family_2.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/full_profile.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/published_story.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/story_1.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/story_2.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/story_3.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/story_4.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/story_5.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/request_story_1.jpeg')
+          %li.project-image
+            .image-wrapper= image_tag('kinscape/request_story_2.jpeg')
 
     %article.piece
       %figcaption
@@ -100,13 +138,13 @@
           %li.project-image
             .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
           %li.project-image
-            .image-wrapper= image_tag('blue_sky/assessment_mobile_2.jpg')
+            .image-wrapper.no-border= image_tag('blue_sky/assessment_mobile_2.jpg')
           %li.project-image
-            .image-wrapper= image_tag('blue_sky/assessment_mobile_finish_1.jpg')
+            .image-wrapper.no-border= image_tag('blue_sky/assessment_mobile_finish_1.jpg')
           %li.project-image
             .image-wrapper= image_tag('blue_sky/course_nav.png')
           %li.project-image
-            .image-wrapper= image_tag('blue_sky/home_mobile_2.jpg')
+            .image-wrapper.no-border= image_tag('blue_sky/home_mobile_2.jpg')
 
         = link_to 'View more on Dribble', 'http://dribbble.com/GalenFrechette/projects/186446-Blue-Sky',
           class: 'view-more-work', target: '_blank'
