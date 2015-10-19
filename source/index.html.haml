@@ -53,6 +53,9 @@
         = link_to '', '#', class: 'close'
         %ul.project-images
           %li.project-image
+            %video{width: '100%', controls: true}
+              %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
+          %li.project-image
             .image-wrapper= image_tag('kinscape/stories.jpeg')
           %li.project-image
             .image-wrapper= image_tag('kinscape/family_1.jpeg')
