@@ -10383,5 +10383,8 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 
 $(document).ready(function() {
-  $('a.view-gallery').smoothScroll();
+  $('a.view-gallery').smoothScroll({
+    easing: 'swing',
+    speed: 1200
+  });
 });
