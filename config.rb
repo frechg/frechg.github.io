@@ -1,17 +1,11 @@
+# Uses .env in the root of the project
+activate :dotenv
+
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
   deploy.build_before = true
 end
-
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -57,6 +51,12 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+# Development-specific configuration
+configure :development do
+  activate :dotenv, env: '.env.development'
+end
+
 # Build-specific configuration
 configure :build do
+  activate :dotenv, env: '.env.build'
 end

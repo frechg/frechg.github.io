@@ -8,6 +8,7 @@ gem "jquery-middleman"
 gem "middleman", "~>3.2.2"
 gem "neat"
 gem 'middleman-deploy'
+gem 'middleman-dotenv', '~> 1.0'
 gem 'font-awesome-middleman'
 
 # Live-reloading plugin
