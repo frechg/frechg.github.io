@@ -9,15 +9,63 @@
         Galen Frechette
       %nav
         %span Product designer in San Francisco, CA
-        -# = link_to 'Dribble', 'http://dribbble.com/GalenFrechette', target: '_blank'
-        -# = link_to 'Writing', 'http://robots.thoughtbot.com/the-product-design-sprint', target: '_blank'
-        -# = link_to 'Github', 'https://github.com/frechg', target: '_blank'
-        -# = mail_to 'galenfrechette@gmail.com', 'Contact'
 
   = link_to '#gallery', class: 'view-gallery' do
     %i.fa.fa-arrow-down
 
 .container
+  %section.overview.hide
+    %h2 Product Design
+    %p
+      By combining empathy, creativity and rationality, I aim to understand and
+      solve problems in a human centered way, such that the resulting solutions
+      are always useful, usable and desirable. Below is an overview and some
+      examples of how I apply design thinking to building software.
+
+    %h3 Design Thinking
+    %p
+      At the highest level, a design driven processes can be broken into three
+      broad phases: developing an understanding of the problem, exploring
+      solution concepts and identifying which solutions address the problem
+      best.
+
+    %h3 Understanding
+    %p
+      The better we understand the problem, the people with the problem and the
+      situation in which they experience the problem, the more capable we are of
+      building powerful solutions.
+    %p
+      A product design process that internalizes the power of understanding is
+      not only a core driver of innovation but also a defensible business
+      strategy. Aesthetics and functionalities can always be copied but the
+      insights and perspectives that lead to great products are nearly
+      impossible to replicate.
+
+    %h3 Exploration
+    %p
+      Sometimes your first idea might be the best solution, but isn’t never the
+      only possible one. With creative exercises teams can leverage their
+      insights and understandings to generate many solution concepts and uncover
+      opportunities that may have otherwise never been discovered.
+    %p
+      If we don’t go beyond what we already know, into the unknown, we limit our
+      ability to discover radically new opportunities.
+
+    %h3 Determining Fitness
+    %p
+      Through qualitative and quantitative testing we can determine which ideas
+      work best and confidently focus on refining and implementing the most
+      appropriate solutions.
+    %p
+      Every design challenge is unique and as a result a strong design processes
+      needs to be able to adapt as things change. Being able to identifying when
+      a tactic or strategy isn’t working and then taking a different approach,
+      is central to facilitating this adaptability.
+
+    %p
+      Here are a few examples of how I have applied design thinking to my
+      product design work:
+
   %section#gallery
     %article.piece
       %figcaption
@@ -149,9 +197,35 @@
           %li.project-image
             .image-wrapper.no-border= image_tag('blue_sky/home_mobile_2.jpg')
 
-        = link_to 'View more on Dribble', 'http://dribbble.com/GalenFrechette/projects/186446-Blue-Sky',
-          class: 'view-more-work', target: '_blank'
+  %section.overview.hide
+    %h2 Engineering
+    %p
+      I love to build things. I always have. A lot of my childhood was spent
+      building with legos and constructing vehicles out of wagons, scooters and
+      anything I could find in our garage and my dads work shop.
+    %p
+      As a product designer I have implemented most of the interfaces and
+      interactions I have designed. Through close collaboration with engineers I
+      continually strengthen my technical skills and often write tests,
+      javascript and server side code.
 
+    %p
+      Here are a few examples of engineering work I have done:
+
+  %section.overview.hide
+    %h2 Visual Design
+    %p
+      The true beauty of a product is in how it empowers its users.
+    %p
+      Visual design is first and foremost about affordances, communicating
+      through it’s form how it works and how to engage with it. Appealing
+      aesthetics alone will never result in a great product. A product must
+      first be useful, useable and desirable before it can be truly beautiful.
+
+    %p
+      Here are a few examples of  how I have applied visual design in my work:
+
+  %section#gallery
     %article.piece
       %figcaption
         .title
@@ -213,10 +287,3 @@
           %li.project-image
             .image-wrapper
               = image_tag('design_boston/design-with-boston.jpg')
-          %li.project-image
-            .image-wrapper
-              %video{ loop: 'true', controls: 'true' }
-                %source{src: 'images/design_boston/dwb.m4v', type: 'video/mp4'}
-
-  = link_to 'View more projects on Dribble', 'http://dribbble.com/GalenFrechette/projects',
-    class: 'view-more-work', target: '_blank'

@@ -180,7 +180,6 @@ a.view-more-work {
 
     a.show-more {
       background: #fff;
-      box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1);
       display: block;
       position: relative;
       z-index: 3;
@@ -195,9 +194,7 @@ a.view-more-work {
       span {
         color: $light-font-color;
         font-family: $sans-serif;
-        // font-size: 0.7em;
         letter-spacing: 1px;
-        // text-transform: uppercase;
         font-family: 'Gentium Book';
         font-family: $serif;
         font-style: italic;
