@@ -3566,15 +3566,14 @@ a.view-more-work {
     /* line 181, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery figure a.show-more {
       background: #fff;
-      box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
       display: block;
       position: relative;
       z-index: 3; }
-  /* line 190, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 189, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   #gallery figcaption {
     margin-bottom: 4em;
     text-align: center; }
-    /* line 195, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 194, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery figcaption .title span {
       color: #a0a0a0;
       font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -3582,7 +3581,7 @@ a.view-more-work {
       font-family: 'Gentium Book';
       font-family: "Playfair Display SC", Georgia, Cambria, "Times New Roman", Times, serif;
       font-style: italic; }
-    /* line 207, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 204, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery figcaption h2 {
       color: #787878;
       letter-spacing: 1px;
@@ -3591,14 +3590,14 @@ a.view-more-work {
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: 0.2em; }
-    /* line 217, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 214, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery figcaption p {
       color: #a0a0a0;
       font-size: 0.9em;
       font-family: 'Gentium Book';
       font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 226, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+/* line 223, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
 .modal {
   background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
@@ -3610,7 +3609,7 @@ a.view-more-work {
   top: 0;
   width: 100%;
   z-index: 100; }
-  /* line 238, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 235, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   .modal a.close {
     position: fixed;
     top: 0.8em;
@@ -3625,15 +3624,15 @@ a.view-more-work {
     color: #fff;
     font-size: 2em;
     text-align: center; }
-    /* line 248, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 245, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     .modal a.close:hover {
       background-color: #f55f5f; }
-    /* line 252, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 249, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     .modal a.close:before {
       content: '\f00d';
       display: inline-block;
       font-family: "FontAwesome"; }
-  /* line 259, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 256, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   .modal ul.project-images {
     *zoom: 1;
     max-width: 68em;
@@ -3646,12 +3645,12 @@ a.view-more-work {
     /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     .modal ul.project-images:after {
       clear: both; }
-    /* line 262, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 259, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     .modal ul.project-images li.project-image {
       width: 100%;
       float: none;
       margin-bottom: 20%; }
-      /* line 267, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+      /* line 264, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
       .modal ul.project-images li.project-image:before {
         background: #f0f0f0;
         border-radius: 6px 6px 0px 0px;
@@ -3900,3 +3899,7 @@ html {
   .image-wrapper img, .image-wrapper video {
     display: block;
     width: 100%; }
+
+/* line 67, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+.hide {
+  display: none; }
