@@ -2,5 +2,8 @@
 //= require_tree .
 
 $(document).ready(function() {
-  $('a.view-gallery').smoothScroll();
+  $('a.view-gallery').smoothScroll({
+    easing: 'swing',
+    speed: 1200
+  });
 });

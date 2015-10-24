@@ -3,15 +3,18 @@
 
 %header.portfolio
   %article
-    .inner-wrapper
-      .avatar{style: "background-image: url(#{image_path('avatar.jpg')})"}
-      %h1
-        Galen Frechette
-      %nav
-        %span Product designer in San Francisco, CA
-
-  = link_to '#gallery', class: 'view-gallery' do
-    %i.fa.fa-arrow-down
+    .title.gradient-border
+      .inner-wrapper
+        .avatar{style: "background-image: url(#{image_path('avatar.jpg')})"}
+        %h1
+          %strong Galen
+          %span is a product designer in San Francisco, CA
+    %nav
+      = link_to 'Work', '#gallery', class: 'view-gallery'
+      = link_to 'Photos', 'https://instagram.com/g_a_l_e_n/',
+        target: '_blank'
+      = link_to 'Contact', 'https://www.linkedin.com/in/galenfrechette',
+        target: '_blank'
 
 .container
   %section.overview.hide
