@@ -7,6 +7,8 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
+activate :directory_indexes
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -17,7 +19,7 @@ end
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+page "/projects/*", :layout => :project_layout
 #
 # A path which all have the same layout
 # with_layout :admin do

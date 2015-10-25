@@ -1,0 +1,73 @@
+a.back-home {
+  @include position(fixed, 0% 0 0% 0%);
+  @include transition(all 0.25s ease-in-out);
+  border-right: 1px solid $base-border-color;
+  background: rgb(245,245,245);
+  color: $light-font-color;
+  width: 80px;
+
+  &:hover {
+    background: $green;
+    border-color: shade($green, 10%);
+    color: #fff;
+  }
+
+  i.fa {
+    @include position(absolute, 50% 0 0 50%);
+    @include size(40px);
+    font-size: 2em;
+    line-height: 40px;
+    margin: -20px 0 0 -20px;
+    text-align: center;
+  }
+}
+
+section.project-overview {
+  @include clearfix;
+  margin: 3em 0;
+  text-align: left;
+
+  .text-wrapper {
+    @include clearfix;
+
+    & + .project-image {
+      margin-top: 6em;
+    }
+
+    .inner-wrapper {
+      @include span-columns(8 of 12);
+      @include shift(2);
+    }
+
+    .project-title {
+      margin: 0;
+
+      & + p {
+        margin-top: 3em;
+      }
+    }
+
+    p {
+      color: $medium-font-color;
+      font-size: 1.2em;
+      line-height: 1.6em;
+
+      & + p {
+        margin-top: 2em;
+      }
+    }
+  }
+
+  .project-image {
+    @include fill-parent();
+    float: none;
+
+    & + .project-image {
+      margin-top: 12em;
+    }
+
+    & + .text-wrapper {
+      margin-top: 6em;
+    }
+  }
+}
