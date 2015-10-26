@@ -10,275 +10,277 @@
           %strong Galen
           %span is a product designer in San Francisco, CA
     %nav
-      = link_to 'Work', '#gallery', class: 'view-gallery'
-      = link_to 'Photos', 'https://instagram.com/g_a_l_e_n/',
+      = link_to 'Portfolio', '#gallery', class: 'view-gallery'
+      = link_to 'Instagram', 'https://instagram.com/g_a_l_e_n/',
         target: '_blank'
-      = link_to 'Contact', 'https://www.linkedin.com/in/galenfrechette',
+      = link_to 'LinkedIn', 'https://www.linkedin.com/in/galenfrechette',
         target: '_blank'
 
 .container
-  %section.overview.hide
-    %h2 Product Design
-    %p
-      By combining empathy, creativity and rationality, I aim to understand and
-      solve problems in a human centered way, such that the resulting solutions
-      are always useful, usable and desirable. Below is an overview and some
-      examples of how I apply design thinking to building software.
+  #gallery
+    %section.exhibit
+      %article.intro
+        .inner
+          %h2 Product Design
+          %p
+            Successful product design results in products and solutions that are
+            useful, usable and desirable and that enable business
+            sustainability. I am to achieve this by using design thinking, the
+            combination of empathy, creativity and rationality, to understand
+            and solve problems in a human centered way.
+          %p
+            A product development process that is driven by design thinking can be broken into three phases:
+          %ol
+            %li
+              %p
+                %strong Understanding the problem
+                %span
+                  , the people with the problem and the situation in which they
+                  experience the problem so that we are enabled to create
+                  powerful solutions.
+            %li
+              %p
+                %strong Generating a large diversity of solution concepts
+                %span
+                  to uncover opportunities that we may have otherwise never
+                  discovered or considered.
+            %li
+              %p
+                %strong Qualitatively and quantitatively testing ideas
+                %span
+                  so that we can confidently focus on refining and implementing
+                  the most appropriate and viable solution.
+          %p
+            A product design process that internalizes design
+            thinking is a core driver of innovation and a defensible business
+            strategy.
+          %p.label
+            Here's a recent example of how I have applied design thinking:
 
-    %h3 Design Thinking
-    %p
-      At the highest level, a design driven processes can be broken into three
-      broad phases: developing an understanding of the problem, exploring
-      solution concepts and identifying which solutions address the problem
-      best.
+      %article.piece
+        .inner
+          %figure
+            = link_to 'projects/segment', class: 'show-more' do
+              .image-wrapper= image_tag('kinscape/stories.jpeg')
 
-    %h3 Understanding
-    %p
-      The better we understand the problem, the people with the problem and the
-      situation in which they experience the problem, the more capable we are of
-      building powerful solutions.
-    %p
-      A product design process that internalizes the power of understanding is
-      not only a core driver of innovation but also a defensible business
-      strategy. Aesthetics and functionalities can always be copied but the
-      insights and perspectives that lead to great products are nearly
-      impossible to replicate.
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Kinscape
+            %span Spring 2014 - Client Project
+          %figure
+            = link_to '#kinscape', class: 'show-more' do
+              .image-wrapper= image_tag('kinscape/stories.jpeg')
 
-    %h3 Exploration
-    %p
-      Sometimes your first idea might be the best solution, but isn’t never the
-      only possible one. With creative exercises teams can leverage their
-      insights and understandings to generate many solution concepts and uncover
-      opportunities that may have otherwise never been discovered.
-    %p
-      If we don’t go beyond what we already know, into the unknown, we limit our
-      ability to discover radically new opportunities.
+        .modal#kinscape
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              %video{width: '100%', controls: true}
+                %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/stories.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/family_1.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/family_2.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/full_profile.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/published_story.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/story_1.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/story_2.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/story_3.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/story_4.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/story_5.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/request_story_1.jpeg')
+            %li.project-image
+              .image-wrapper= image_tag('kinscape/request_story_2.jpeg')
 
-    %h3 Determining Fitness
-    %p
-      Through qualitative and quantitative testing we can determine which ideas
-      work best and confidently focus on refining and implementing the most
-      appropriate solutions.
-    %p
-      Every design challenge is unique and as a result a strong design processes
-      needs to be able to adapt as things change. Being able to identifying when
-      a tactic or strategy isn’t working and then taking a different approach,
-      is central to facilitating this adaptability.
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Blue Sky
+            %span Febuary 2013 - Client Project
+          %figure
+            = link_to '#blue-sky', class: 'show-more' do
+              .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
 
-    %p
-      Here are a few examples of how I have applied design thinking to my
-      product design work:
+        .modal#blue-sky
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper= image_tag('blue_sky/courses_1.png')
+            %li.project-image
+              .image-wrapper= image_tag('blue_sky/courses_2.png')
+            %li.project-image
+              .image-wrapper= image_tag('blue_sky/assessment_admin_view.png')
+            %li.project-image
+              .image-wrapper= image_tag('blue_sky/assessment_question_modal.png')
+            %li.project-image
+              .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
+            %li.project-image
+              .image-wrapper.no-border= image_tag('blue_sky/assessment_mobile_2.jpg')
+            %li.project-image
+              .image-wrapper.no-border= image_tag('blue_sky/assessment_mobile_finish_1.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('blue_sky/course_nav.png')
+            %li.project-image
+              .image-wrapper.no-border= image_tag('blue_sky/home_mobile_2.jpg')
 
-  %section#gallery
-    %article.piece
-      %figcaption
-        %h2 Hound
-        %span Winter 2015 - thoughtbot Product
-      %figure
-        = link_to '#hound', class: 'show-more' do
-          .image-wrapper= image_tag('hound/cover.jpg')
+    %section.exhibit
+      %article.intro
+        .inner
+          %h2 Engineering
+          %p
+            I love to build things. I always have. A lot of my childhood was
+            spent building with legos and constructing vehicles out of wagons,
+            scooters and anything I could find in our garage and workshop.
+          %p
+            As a product designer I have implemented most of the interfaces and
+            interactions I have designed. Through close collaboration with engineers I
+            continually strengthen my technical skills and often write tests,
+            javascript and server-side code.
 
-      .modal#hound
+          %p.label
+            Here are a few examples of engineering I have done:
+
+    %section.exhibit
+      %article.intro
+        .inner
+          %h2 Visual Design
+          %p
+            The true beauty of a product is in how it works. Visual design, in
+            the context of software, is first and foremost about affordances and
+            communication. The value of aesthetic beauty is greatest when a
+            product is already useful, usable and desirable.
+
+          %p.label
+            Here are some examples of how I have applied visual design:
+
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Hound
+            %span Winter 2015 - thoughtbot Product
+          %figure
+            = link_to '#hound', class: 'show-more' do
+              .image-wrapper= image_tag('hound/cover.jpg')
+
+        .modal#hound
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper= image_tag('hound/home.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('hound/dashboard.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('hound/docs.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('hound/faq.jpg')
+
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Cardless
+            %span December 2013 - Personal Project
+          %figure
+            = link_to '#cardless', class: 'show-more' do
+              .image-wrapper= image_tag('cardless/cover_2.png')
+
+        .modal#cardless
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper.no-border= image_tag('cardless/contacts_1.png')
+            %li.project-image
+              .image-wrapper.no-border= image_tag('cardless/contact_profile_1.png')
+            %li.project-image
+              .image-wrapper.no-border= image_tag('cardless/contact_profile_2.png')
+            %li.project-image
+              .image-wrapper.no-border= image_tag('cardless/my_profile.png')
+
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Tenant.io
+            %span 4th Place, 2013 Rails Rumble - 48 hrs
+          %figure
+            = link_to '#tenant', class: 'show-more' do
+              .image-wrapper= image_tag('tenant/cover.jpg')
+
+        .modal#tenant
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper= image_tag('tenant/tenant_home.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('tenant/tenant_dashboard.jpg')
+
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Gift of Knowledge
+            %span January 2013 - Client Project
+          %figure
+            = link_to '#gift-of-knowledge', class: 'show-more' do
+              .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
+
+      .modal#gift-of-knowledge
         = link_to '', '#', class: 'close'
         %ul.project-images
           %li.project-image
-            .image-wrapper= image_tag('hound/home.jpg')
+            .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_landing.jpg')
           %li.project-image
-            .image-wrapper= image_tag('hound/dashboard.jpg')
+            .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
           %li.project-image
-            .image-wrapper= image_tag('hound/docs.jpg')
+            .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_thankyou.jpg')
           %li.project-image
-            .image-wrapper= image_tag('hound/faq.jpg')
+            .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_create_account.jpg')
+          %li.project-image
+            .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_faq.jpg')
 
-    %article.piece
-      %figcaption
-        %h2 Kinscape
-        %span Spring 2014 - Client Project
-      %figure
-        = link_to '#kinscape', class: 'show-more' do
-          .image-wrapper= image_tag('kinscape/stories.jpeg')
+      %article.piece
+        .inner
+          %figcaption
+            %h2 edX
+            %span May 2012 - Client Project
+          %figure
+            = link_to '#edx', class: 'show-more' do
+              .image-wrapper
+                = image_tag('edx/cover.jpg')
 
-      .modal#kinscape
-        = link_to '', '#', class: 'close'
-        %ul.project-images
-          %li.project-image
-            %video{width: '100%', controls: true}
-              %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/stories.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/family_1.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/family_2.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/full_profile.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/published_story.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/story_1.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/story_2.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/story_3.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/story_4.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/story_5.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/request_story_1.jpeg')
-          %li.project-image
-            .image-wrapper= image_tag('kinscape/request_story_2.jpeg')
+        .modal#edx
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper= image_tag('edx/edx-home.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('edx/edx-login.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('edx/edx-courses.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('edx/edx-course.jpg')
 
-    %article.piece
-      %figcaption
-        %h2 Cardless
-        %span December 2013 - Personal Project
-      %figure
-        = link_to '#cardless', class: 'show-more' do
-          .image-wrapper= image_tag('cardless/cover_2.png')
+      %article.piece
+        .inner
+          %figcaption
+            %h2 Design with Boston
+            %span November 2011 - thoughbot Event
+          %figure
+            = link_to '#design-boston', class: 'show-more' do
+              .image-wrapper
+                = image_tag('design_boston/design-with-boston.jpg')
 
-      .modal#cardless
-        = link_to '', '#', class: 'close'
-        %ul.project-images
-          %li.project-image
-            .image-wrapper.no-border= image_tag('cardless/contacts_1.png')
-          %li.project-image
-            .image-wrapper.no-border= image_tag('cardless/contact_profile_1.png')
-          %li.project-image
-            .image-wrapper.no-border= image_tag('cardless/contact_profile_2.png')
-          %li.project-image
-            .image-wrapper.no-border= image_tag('cardless/my_profile.png')
-
-    %article.piece
-      %figcaption
-        %h2 Tenant.io
-        %span 4th Place, 2013 Rails Rumble - 48 hrs
-      %figure
-        = link_to '#tenant', class: 'show-more' do
-          .image-wrapper= image_tag('tenant/cover.jpg')
-
-      .modal#tenant
-        = link_to '', '#', class: 'close'
-        %ul.project-images
-          %li.project-image
-            .image-wrapper= image_tag('tenant/tenant_home.jpg')
-          %li.project-image
-            .image-wrapper= image_tag('tenant/tenant_dashboard.jpg')
-
-    %article.piece
-      %figcaption
-        %h2 Blue Sky
-        %span Febuary 2013 - Client Project
-      %figure
-        = link_to '#blue-sky', class: 'show-more' do
-          .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
-
-      .modal#blue-sky
-        = link_to '', '#', class: 'close'
-        %ul.project-images
-          %li.project-image
-            .image-wrapper= image_tag('blue_sky/courses_1.png')
-          %li.project-image
-            .image-wrapper= image_tag('blue_sky/courses_2.png')
-          %li.project-image
-            .image-wrapper= image_tag('blue_sky/assessment_admin_view.png')
-          %li.project-image
-            .image-wrapper= image_tag('blue_sky/assessment_question_modal.png')
-          %li.project-image
-            .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
-          %li.project-image
-            .image-wrapper.no-border= image_tag('blue_sky/assessment_mobile_2.jpg')
-          %li.project-image
-            .image-wrapper.no-border= image_tag('blue_sky/assessment_mobile_finish_1.jpg')
-          %li.project-image
-            .image-wrapper= image_tag('blue_sky/course_nav.png')
-          %li.project-image
-            .image-wrapper.no-border= image_tag('blue_sky/home_mobile_2.jpg')
-
-  %section.overview.hide
-    %h2 Engineering
-    %p
-      I love to build things. I always have. A lot of my childhood was spent
-      building with legos and constructing vehicles out of wagons, scooters and
-      anything I could find in our garage and my dads work shop.
-    %p
-      As a product designer I have implemented most of the interfaces and
-      interactions I have designed. Through close collaboration with engineers I
-      continually strengthen my technical skills and often write tests,
-      javascript and server side code.
-
-    %p
-      Here are a few examples of engineering work I have done:
-
-  %section.overview.hide
-    %h2 Visual Design
-    %p
-      The true beauty of a product is in how it empowers its users.
-    %p
-      Visual design is first and foremost about affordances, communicating
-      through it’s form how it works and how to engage with it. Appealing
-      aesthetics alone will never result in a great product. A product must
-      first be useful, useable and desirable before it can be truly beautiful.
-
-    %p
-      Here are a few examples of  how I have applied visual design in my work:
-
-  %section#gallery
-    %article.piece
-      %figcaption
-        %h2 Gift of Knowledge
-        %span January 2013 - Client Project
-      %figure
-        = link_to '#gift-of-knowledge', class: 'show-more' do
-          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
-
-    .modal#gift-of-knowledge
-      = link_to '', '#', class: 'close'
-      %ul.project-images
-        %li.project-image
-          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_landing.jpg')
-        %li.project-image
-          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
-        %li.project-image
-          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_thankyou.jpg')
-        %li.project-image
-          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_create_account.jpg')
-        %li.project-image
-          .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_faq.jpg')
-
-    %article.piece
-      %figcaption
-        %h2 edX
-        %span May 2012 - Client Project
-      %figure
-        = link_to '#edx', class: 'show-more' do
-          .image-wrapper
-            = image_tag('edx/cover.jpg')
-
-      .modal#edx
-        = link_to '', '#', class: 'close'
-        %ul.project-images
-          %li.project-image
-            .image-wrapper= image_tag('edx/edx-home.jpg')
-          %li.project-image
-            .image-wrapper= image_tag('edx/edx-login.jpg')
-          %li.project-image
-            .image-wrapper= image_tag('edx/edx-courses.jpg')
-          %li.project-image
-            .image-wrapper= image_tag('edx/edx-course.jpg')
-
-    %article.piece
-      %figcaption
-        %h2 Design with Boston
-        %span November 2011 - thoughbot Event
-      %figure
-        = link_to '#design-boston', class: 'show-more' do
-          .image-wrapper
-            = image_tag('design_boston/design-with-boston.jpg')
-
-      .modal#design-boston
-        = link_to '', '#', class: 'close'
-        %ul.project-images
-          %li.project-image
-            .image-wrapper
-              = image_tag('design_boston/design-with-boston.jpg')
+        .modal#design-boston
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper
+                = image_tag('design_boston/design-with-boston.jpg')

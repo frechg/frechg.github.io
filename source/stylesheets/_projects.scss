@@ -24,50 +24,46 @@ a.back-home {
 
 section.project-overview {
   @include clearfix;
-  margin: 3em 0;
+  margin-left: 80px;
+  padding: 8% 0;
   text-align: left;
 
   .text-wrapper {
     @include clearfix;
 
     & + .project-image {
-      margin-top: 6em;
+      margin-top: 5em;
     }
 
-    .inner-wrapper {
-      @include span-columns(8 of 12);
-      @include shift(2);
-    }
-
-    .project-title {
-      margin: 0;
-
-      & + p {
-        margin-top: 3em;
-      }
-    }
-
-    p {
-      color: $medium-font-color;
-      font-size: 1.2em;
-      line-height: 1.6em;
-
-      & + p {
-        margin-top: 2em;
-      }
+    .inner {
+      @include span-columns(6 of 12);
+      @include shift(3);
     }
   }
 
   .project-image {
+    @include clearfix;
     @include fill-parent();
     float: none;
 
     & + .project-image {
-      margin-top: 12em;
+      margin-top: 8em;
     }
 
     & + .text-wrapper {
-      margin-top: 6em;
+      margin-top: 5em;
+    }
+
+    &.group {
+      .image-wrapper {
+        @include span-columns(6 of 12);
+        @include omega(2n);
+      }
+    }
+
+    .inner {
+      @include span-columns(10 of 12);
+      @include shift(1);
     }
   }
 }
