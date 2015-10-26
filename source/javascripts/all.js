@@ -1,6 +1,5 @@
 //= require jquery
-//= smooth-scroll.min
-//= waypoints.min
+//= require_tree .
 
 $(document).ready(function() {
   $('a.view-gallery').smoothScroll({
