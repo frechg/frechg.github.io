@@ -13,7 +13,7 @@ header.portfolio {
     width: 100%;
 
     .gradient-border {
-      @include background-image(linear-gradient(170deg, #40FF95, #3E93FD));
+      @include background-image(linear-gradient(170deg, $green, $blue));
       display: inline-block;
       padding: 9px;
       @include span-columns(8 of 12);
