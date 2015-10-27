@@ -56,7 +56,7 @@ p + h6 {
 a {
   color: $base-link-color;
   text-decoration: none;
-  @include transition(color 0.1s linear);
+  @include transition(all 0.15s ease-in-out);
 
   &:hover {
     color: $hover-link-color;

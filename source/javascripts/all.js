@@ -1,5 +1,5 @@
 //= require jquery
-//= require_tree .
+//= require smooth-scroll.min
 
 $(document).ready(function() {
   $('a.view-gallery').smoothScroll({
