@@ -6,7 +6,7 @@ header.portfolio {
 
   > article {
     @include outer-container();
-    height: 75vh;
+    height: 100vh;
     padding-top: 25vh;
     position: relative;
     vertical-align: middle;
@@ -23,7 +23,7 @@ header.portfolio {
     .inner-wrapper {
       @include transition(opacity 1s linear);
       background: rgb(46,46,46);
-      padding: 6.8em 7em;
+      padding: 16% 0;
       position: relative;
     }
   }
@@ -45,7 +45,7 @@ header.portfolio {
 
   nav {
     display: inline-block;
-    bottom: 0%;
+    bottom: 10%;
     left: 0%;
     position: absolute;
     width: 100%;
