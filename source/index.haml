@@ -8,7 +8,7 @@
         .avatar{style: "background-image: url(#{image_path('avatar.jpg')})"}
         %h1
           %strong Galen
-          %span is a product designer in San Francisco, CA
+          %span A product designer in San Francisco, CA
     %nav
       = link_to 'Portfolio', '#gallery', class: 'view-gallery'
       = link_to 'LinkedIn', 'https://www.linkedin.com/in/galenfrechette',
@@ -24,18 +24,18 @@
           %h2 Product Design
           %p
             Successful product design results in products and solutions that are
-            useful, usable and desirable and that enable business
-            sustainability. I am to achieve this by using design thinking, the
-            combination of empathy, creativity and rationality, to understand
-            and solve problems in a human centered way.
+            useful, usable and desirable and drive business sustainability. I
+            aim to achieve this by using design thinking, the combination of
+            empathy, creativity and rationality, to understand and solve
+            problems in a human centered way.
           %p
             A product development process that is driven by design thinking can be broken into three phases:
           %ol
             %li
               %p
-                %strong Understanding the problem
+                %strong Understanding the problem,
                 %span
-                  , the people with the problem and the situation in which they
+                  the people with the problem and the situation in which they
                   experience the problem so that we are enabled to create
                   powerful solutions.
             %li
@@ -54,20 +54,108 @@
             A product design process that internalizes design
             thinking is a core driver of innovation and a defensible business
             strategy.
-          %p.label
-            Here's a recent example of how I have applied design thinking:
 
-      %article.piece
+      %article.examples
+        %figcaption
+          .inner
+            %p
+              %strong Design Thinking Sample:
+              = link_to 'projects/segment' do
+                Segment Marketing Site - Fall 2015
+        %figure
+          .inner
+            = link_to 'projects/segment' do
+              = image_tag('design_thinking_example_2.jpg')
+
+    %section.exhibit
+      %article.intro
         .inner
-          %figure
-            = link_to 'projects/segment', class: 'show-more' do
-              .image-wrapper= image_tag('kinscape/stories.jpeg')
+          %h2 Engineering
+          %p
+            I love to build things. I always have. A lot of my childhood was
+            spent building with legos and constructing vehicles out of wagons,
+            scooters and anything I could find in our garage and workshop.
+          %p
+            As a product designer I have implemented most of the interfaces and
+            interactions I have designed. Through close collaboration with engineers I
+            continually strengthen my technical skills and often write tests,
+            javascript and server-side code.
+
+      %article.examples
+        %figcaption
+          .inner
+            %p
+              %strong Engineering Sample:
+              = link_to 'https://github.com/frechg/wiggle-audit-tool',
+                target: '_blank'  do
+                Wiggle Audit Tool - Spring 2014
+        %figure
+          .inner.engineering
+            = link_to 'https://github.com/frechg/wiggle-audit-tool',
+              target: '_blank'  do
+              = image_tag('wiggle_audit_tool_4.png')
+
+    %section.exhibit
+      %article.intro
+        .inner
+          %h2 Visual Design
+          %p
+            The true beauty of a product is in how it works. Visual design, in
+            the context of software, is first and foremost about affordances and
+            communication. The value of beautiful aesthetics is greatest when a
+            product is already useful, usable and desirable.
+
+      %article.examples
+        %figcaption
+          .inner
+            %p
+              %strong Visual Samples:
+              = link_to '#' do
+                Select screenshots from various projects.
+        %figure
+          .inner.visual
+            = link_to '#' do
+              = image_tag('visual_sample.png')
+
+    %section.exhibit
+      %article.intro
+        .inner
+          %h2 More Work Samples
+          %p
+            I’ve had the opportunity to work on and play a central role in a
+            wide variety of software projects with a diverse set of businesses.
+            From leading early stage startups in the conception, design and
+            implementation of the first version of their product to helping
+            established business redesign, improve and grow existing products.
 
       %article.piece
         .inner
           %figcaption
-            %h2 Kinscape
-            %span Spring 2014 - Client Project
+            .inner
+              %h2 Hound
+              %span Winter 2015 - thoughtbot Product
+          %figure
+            = link_to '#hound', class: 'show-more' do
+              .image-wrapper= image_tag('hound/cover.jpg')
+
+        .modal#hound
+          = link_to '', '#', class: 'close'
+          %ul.project-images
+            %li.project-image
+              .image-wrapper= image_tag('hound/home.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('hound/dashboard.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('hound/docs.jpg')
+            %li.project-image
+              .image-wrapper= image_tag('hound/faq.jpg')
+
+      %article.piece
+        .inner
+          %figcaption
+            .inner
+              %h2 Kinscape
+              %span Spring 2014 - Client Project
           %figure
             = link_to '#kinscape', class: 'show-more' do
               .image-wrapper= image_tag('kinscape/stories.jpeg')
@@ -106,8 +194,9 @@
       %article.piece
         .inner
           %figcaption
-            %h2 Blue Sky
-            %span Febuary 2013 - Client Project
+            .inner
+              %h2 Blue Sky
+              %span Febuary 2013 - Client Project
           %figure
             = link_to '#blue-sky', class: 'show-more' do
               .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
@@ -134,75 +223,12 @@
             %li.project-image
               .image-wrapper.no-border= image_tag('blue_sky/home_mobile_2.jpg')
 
-    %section.exhibit
-      %article.intro
-        .inner
-          %h2 Engineering
-          %p
-            I love to build things. I always have. A lot of my childhood was
-            spent building with legos and constructing vehicles out of wagons,
-            scooters and anything I could find in our garage and workshop.
-          %p
-            As a product designer I have implemented most of the interfaces and
-            interactions I have designed. Through close collaboration with engineers I
-            continually strengthen my technical skills and often write tests,
-            javascript and server-side code.
-
-          %p.label
-            Here are a few examples of engineering I have done:
-
-    %section.exhibit
-      %article.intro
-        .inner
-          %h2 Visual Design
-          %p
-            The true beauty of a product is in how it works. Visual design, in
-            the context of software, is first and foremost about affordances and
-            communication. The value of aesthetic beauty is greatest when a
-            product is already useful, usable and desirable.
-
-          %p.label
-            Here are some examples of how I have applied visual design:
-
-    %section.exhibit
-      %article.intro
-        .inner
-          %h2 More Work Samples
-          %p
-            I’ve had the opportunity to work on and play a central role in a
-            wide variety of software projects with a diverse set of businesses.
-            From leading early stage startups in the conception, design and
-            implementation of the first version of their product to helping
-            established business redesign, improve and grow existing products.
-          %p.label
-            Here are some fully implemented examples of work I have done:
-
       %article.piece
         .inner
           %figcaption
-            %h2 Hound
-            %span Winter 2015 - thoughtbot Product
-          %figure
-            = link_to '#hound', class: 'show-more' do
-              .image-wrapper= image_tag('hound/cover.jpg')
-
-        .modal#hound
-          = link_to '', '#', class: 'close'
-          %ul.project-images
-            %li.project-image
-              .image-wrapper= image_tag('hound/home.jpg')
-            %li.project-image
-              .image-wrapper= image_tag('hound/dashboard.jpg')
-            %li.project-image
-              .image-wrapper= image_tag('hound/docs.jpg')
-            %li.project-image
-              .image-wrapper= image_tag('hound/faq.jpg')
-
-      %article.piece
-        .inner
-          %figcaption
-            %h2 Cardless
-            %span December 2013 - Personal Project
+            .inner
+              %h2 Cardless
+              %span December 2013 - Personal Project
           %figure
             = link_to '#cardless', class: 'show-more' do
               .image-wrapper= image_tag('cardless/cover_2.png')
@@ -222,8 +248,9 @@
       %article.piece
         .inner
           %figcaption
-            %h2 Tenant.io
-            %span 4th Place, 2013 Rails Rumble - 48 hrs
+            .inner
+              %h2 Tenant.io
+              %span 4th Place, 2013 Rails Rumble - 48 hrs
           %figure
             = link_to '#tenant', class: 'show-more' do
               .image-wrapper= image_tag('tenant/cover.jpg')
@@ -239,8 +266,9 @@
       %article.piece
         .inner
           %figcaption
-            %h2 Gift of Knowledge
-            %span January 2013 - Client Project
+            .inner
+              %h2 Gift of Knowledge
+              %span January 2013 - Client Project
           %figure
             = link_to '#gift-of-knowledge', class: 'show-more' do
               .image-wrapper= image_tag('gift_of_knowledge/giftofknowledge_school_donate.jpg')
@@ -262,8 +290,9 @@
       %article.piece
         .inner
           %figcaption
-            %h2 edX
-            %span May 2012 - Client Project
+            .inner
+              %h2 edX
+              %span May 2012 - Client Project
           %figure
             = link_to '#edx', class: 'show-more' do
               .image-wrapper
@@ -284,8 +313,9 @@
       %article.piece
         .inner
           %figcaption
-            %h2 Design with Boston
-            %span November 2011 - thoughbot Event
+            .inner
+              %h2 Design with Boston
+              %span November 2011 - thoughbot Event
           %figure
             = link_to '#design-boston', class: 'show-more' do
               .image-wrapper
