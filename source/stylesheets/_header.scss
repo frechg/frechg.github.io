@@ -6,18 +6,21 @@ header.portfolio {
 
   > article {
     @include outer-container();
-    height: 100vh;
-    padding-top: 25vh;
+    height: 100%;
     position: relative;
     vertical-align: middle;
     width: 100%;
 
     .gradient-border {
       @include background-image(linear-gradient(170deg, $green, $blue));
-      display: inline-block;
-      padding: 9px;
       @include span-columns(8 of 12);
       @include shift(2);
+      padding: 9px;
+      display: inline-block;
+      margin-top: 25%;
+      margin-left: 0;
+      margin-right: 0;
+      float: none;
      }
 
     .inner-wrapper {
