@@ -1,6 +1,3 @@
-# Uses .env in the root of the project
-activate :dotenv
-
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
