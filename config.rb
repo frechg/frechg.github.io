@@ -1,4 +1,5 @@
 activate :deploy do |deploy|
+  activate :dotenv, env: '.env.build'
   deploy.method = :git
   deploy.branch = 'master'
   deploy.build_before = true
