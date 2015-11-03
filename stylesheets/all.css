@@ -3765,7 +3765,7 @@ section.project-overview {
     color: #a0a0a0; }
   /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .project-title + h6, section.project-overview .project-title + p {
-    margin-top: 4em; }
+    margin-top: 3em; }
   /* line 47, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .text-wrapper {
     *zoom: 1; }
