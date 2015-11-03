@@ -8,19 +8,14 @@ header.portfolio {
     @include outer-container();
     height: 100%;
     position: relative;
-    vertical-align: middle;
-    width: 100%;
 
     .gradient-border {
       @include background-image(linear-gradient(170deg, $green, $blue));
-      @include span-columns(8 of 12);
-      @include shift(2);
+      left: 16%;
       padding: 9px;
-      display: inline-block;
-      margin-top: 25%;
-      margin-left: 0;
-      margin-right: 0;
-      float: none;
+      position: absolute;
+      top: 20%;
+      width: 66%;
      }
 
     .inner-wrapper {
