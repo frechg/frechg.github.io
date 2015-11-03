@@ -7,11 +7,57 @@
       %h2 Cardless
       %span Personal Project - December 2013
 
+    %p
+      Business cards are annoying. They are annoying to carry around and they
+      are annoying to receive and when you need them you often don’t have any.
+      Worst of all, every card you hand out becomes obsolete the moment any of
+      your information changes. Yet, business cards are a staple in the business
+      world.
+    %p
+      Cardless is a side project that I worked on with Alex Baldwin. It aims to
+      help those like myself develop and make use of a strong professional
+      network without needing to carry business cards, remember emails or spread
+      professional connections amongst social media sites like Facebook, Twitter
+      or LinkedIn.
+
+    %h6 Getting Started
+    %p
+      We began to observe, at professional events, how people chose to transact
+      business and contact information. We didn’t see too many business card
+      transactions but we did noticed a lot of people handing their phones over
+      to others so that they could type out their contact info in various apps.
+      A lot of people where choosing to use Twitter, Facebook and email as a
+      means of capturing a new professional connection.
+
+    %p
+      These observations and
+      our dissatisfaction with traditional business cards motivated the creation
+      of a an MVP of our Cardless concept. The screenshots below are of a
+      responsive web application built with Ruby on Rails.
+
+    %h6 How It Works
+    %p
+      Add contacts by entering an email address. If the email address is
+      already associated with a Cardless users “card”, that card is added to
+      your list of contacts and your “card” is shared with your new contact.
+    %p
+      If the “new contact” email you enter is not associated with an existing
+      Cardless user, an email sharing your Cardless “card” is sent to that email
+      address and the recipient is encouraged to share their contact info by
+      filling out the rest of a Cardless "card” that has already been created
+      for them.
+
+    %p
+      In this case, the “placeholder” card that has been created is the card
+      that gets added to your contacts list. To make this card useful, until the
+      “owner” adds/updates content (at any time in the future),  you can add
+      relevant notes.
+
 .project-image
   .image-wrapper.no-border= image_tag('cardless/contacts_1.png')
 .project-image
   .image-wrapper.no-border= image_tag('cardless/contact_profile_1.png')
 .project-image
-  .image-wrapper.no-border= image_tag('cardless/contact_profile_2.png')
-.project-image
   .image-wrapper.no-border= image_tag('cardless/my_profile.png')
+.project-image
+  .image-wrapper.no-border= image_tag('cardless/contact_profile_2.png')
