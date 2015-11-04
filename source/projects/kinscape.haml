@@ -7,61 +7,98 @@
       %h2 Kinscape
       %span Client Work - Spring 2014
 
-    %h6 The Challenge
     %p
-      Design and build a family social network where family members can connect
-      through privately shared stories and archive video, audio, images and
-      other media.
+      Kinscape is a family oriented social network that enables families to
+      connect through privately shared stories built around videos, images and
+      audio. The memories captured in Kinscape create a living family history
+      that can be accessed and contributed to by future generations.
 
-    %h6 The Sollution
     %p
-      As the sole designer I led the kickoff of the project with a week long
-      design sprint. Our goal of this sprint was to get on board with our
-      clients vision and get up to speed with where the project had come from,
-      where it is now and where it could go. During the sprint we also developed
-      a better understanding of our clients business goals so that we could best
-      align product development with a clear business strategy.
+      On this project I worked with a thoughbot developer and a non-technical
+      client team.
     %p
-      By the end of the sprint week we had identified the “story telling”
-      component of the clients vision to be the most central to everything else
-      they wanted to facilitate through the product. This gave us a clear
-      starting point to being iteratively developing the product from.
+      Kinscape is about story telling and to build a powerful story telling tool
+      we needed to deeply understand story telling in the context of families.
+      Through interviews, research and experimentation with prototypes, we
+      learned about the ways people share stories the things that motivate story
+      telling and the things that make it difficult.
     %p
-      Over the following weeks we designed, tested and refined an
-      in-line-editable story creation tool and the ability to share stories into
-      private groups. We conducted interviews and usability tests to make sure
-      we where build something useful, usable and desirable.
+      For Kinscape to work we needed to give all family members the to ability
+      to tell great stories with little investment. To do this, we put media
+      like videos, images and audio, media that people where already using to
+      tell and share stories, at the heart of our story structure. This
+      architecture enabled users to put together stories using media like
+      building blocks that they could then elaborate on with captions and
+      narrative.
+    %p
+      Inline editing tools and auto saving enabled users to craft their story
+      without worrying about loosing work or how it might look once it gets
+      shared.
 
-.project-image
-  %video{width: '100%', controls: true}
-    %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
-.project-image
-  .image-wrapper= image_tag('kinscape/stories.jpeg')
-.project-image
-  .image-wrapper= image_tag('kinscape/family_1.jpeg')
-.project-image
-  .image-wrapper= image_tag('kinscape/family_2.jpeg')
-.project-image
-  .image-wrapper= image_tag('kinscape/full_profile.jpeg')
-.project-image
-  .image-wrapper= image_tag('kinscape/published_story.jpeg')
 .project-image
   .image-wrapper= image_tag('kinscape/story_1.jpeg')
+.project-image
+  .image-wrapper= image_tag('kinscape/published_story.jpeg')
 .project-image
   .image-wrapper= image_tag('kinscape/story_2.jpeg')
 .project-image
   .image-wrapper= image_tag('kinscape/story_3.jpeg')
 .project-image
   .image-wrapper= image_tag('kinscape/story_4.jpeg')
+
+.text-wrapper
+  .inner
+    %p
+      To ensure privacy, stories can only be shared with families you’re a part
+      of. In the case captured below the user is not part of a family and has to
+      create one in order to share their story.
+
 .project-image
   .image-wrapper= image_tag('kinscape/story_5.jpeg')
 
 .text-wrapper
   .inner
     %p
-      Based on prior research and considerations for product growth mechanisms
-      we introduced functionality that enabled users to request stories from
-      existing and non-existing users.
+      A family is a private group. New members are added by existing members.
+
+.project-image
+  .image-wrapper= image_tag('kinscape/family_1.jpeg')
+.project-image
+  .image-wrapper= image_tag('kinscape/family_2.jpeg')
+
+.text-wrapper
+  .inner
+    %p
+      The Storyscape is an index of all the stories from all of the families a
+      user is a part of. Basic searching, sorting and filtering functionality
+      give users the ability to browse and revisit stories as the number of
+      stories grows.
+
+.project-image
+  .image-wrapper= image_tag('kinscape/stories.jpeg')
+
+.text-wrapper
+  .inner
+    %p
+      Stories that you are working on are saved as drafts in a private section
+      of your profile until you share them.
+
+.project-image
+  .image-wrapper= image_tag('kinscape/full_profile.jpeg')
+
+.text-wrapper
+  .inner
+    %p
+      We had learned through interviews and prior research that some people
+      didn’t think that others would be interested in hearing stories from them
+      but would be happy to tell them if others asked. This insight motivated us
+      to build a feature that enabled users to request stories from existing and
+      invited family members. This functionality also acted as customer
+      acquisition mechanism.
 
 .project-image
   .image-wrapper= image_tag('kinscape/request_story_2.jpeg')
+
+.project-image
+  %video{width: '100%', controls: true}
+    %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
