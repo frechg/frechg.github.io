@@ -3706,34 +3706,32 @@ ol.time-line {
 /* line 1, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
 a.back-home {
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
+  top: 20px;
+  left: 20px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
-  border-right: 1px solid #DDD;
-  background: whitesmoke;
-  color: #a0a0a0;
-  width: 80px; }
-  /* line 9, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+  background: #3E93FD;
+  border-radius: 50%;
+  color: #fff;
+  height: 60px;
+  width: 60px; }
+  /* line 12, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   a.back-home:hover {
-    background: #40FF95;
-    border-color: #3ae686;
-    color: #fff; }
-  /* line 15, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    background: #40FF95; }
+  /* line 16, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   a.back-home i.fa {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 40px;
     height: 40px;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 40px;
     margin: -20px 0 0 -20px;
     text-align: center; }
 
-/* line 25, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+/* line 26, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
 section.project-overview {
   *zoom: 1;
   margin-left: 80px;
@@ -3746,16 +3744,16 @@ section.project-overview {
   /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
   section.project-overview:after {
     clear: both; }
-  /* line 32, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+  /* line 33, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .project-title h2 {
     margin-bottom: 0.2em; }
-  /* line 36, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+  /* line 37, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .project-title span {
     color: #a0a0a0; }
-  /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+  /* line 41, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .project-title + h6, section.project-overview .project-title + p {
     margin-top: 3em; }
-  /* line 47, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+  /* line 48, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .text-wrapper {
     *zoom: 1; }
     /* line 17, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
@@ -3765,10 +3763,10 @@ section.project-overview {
     /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     section.project-overview .text-wrapper:after {
       clear: both; }
-    /* line 50, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    /* line 51, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
     section.project-overview .text-wrapper + .project-image {
       margin-top: 5em; }
-    /* line 54, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    /* line 55, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
     section.project-overview .text-wrapper .inner {
       float: left;
       display: block;
@@ -3778,7 +3776,7 @@ section.project-overview {
       /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/neat/grid/_span-columns.scss */
       section.project-overview .text-wrapper .inner:last-child {
         margin-right: 0; }
-  /* line 60, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+  /* line 61, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
   section.project-overview .project-image {
     *zoom: 1;
     width: 100%;
@@ -3790,13 +3788,13 @@ section.project-overview {
     /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     section.project-overview .project-image:after {
       clear: both; }
-    /* line 65, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    /* line 66, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
     section.project-overview .project-image + .project-image {
       margin-top: 8em; }
-    /* line 69, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    /* line 70, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
     section.project-overview .project-image + .text-wrapper {
       margin-top: 5em; }
-    /* line 74, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    /* line 75, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
     section.project-overview .project-image.group .image-wrapper {
       float: left;
       display: block;
@@ -3811,7 +3809,7 @@ section.project-overview {
       /* line 75, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/neat/grid/_omega.scss */
       section.project-overview .project-image.group .image-wrapper:nth-child(2n+1) {
         clear: left; }
-    /* line 80, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+    /* line 81, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
     section.project-overview .project-image .inner {
       float: left;
       display: block;
