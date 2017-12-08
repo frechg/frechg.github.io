@@ -21,93 +21,6 @@
     %section.exhibit
       %article.intro
         .inner
-          %h2 Product Design
-          %p
-            Successful product design results in products that are useful,
-            usable, desirable and that drive business sustainability. I aim to
-            achieve this by using design thinking, the combination of empathy,
-            creativity and rationality, to understand and solve problems in a
-            human centered way.
-          %p
-            A process driven by design thinking can be explained in three phases:
-          %ol
-            %li
-              %p
-                %strong
-                  Understanding the problem, the people and the situation
-                %span
-                  so that we are best enabled to create solutions
-            %li
-              %p
-                %strong Generating a large diversity of solution concepts
-                %span
-                  to uncover opportunities that would otherwise never be
-                  discovered
-            %li
-              %p
-                %strong Qualitatively and quantitatively testing ideas
-                %span
-                  so we can focus on refining and implementing
-                  the best and most viable solutions
-          %p
-            Design thinking, paired with interdisciplinary collaboration, is a
-            core driver of innovation and a strongly defensible business
-            strategy.
-
-      %article.piece#segment
-        .inner
-          %figcaption
-            .inner
-              %h2 Segment Marketing Site
-              = link_to 'projects/segment' do
-                A simple example of design thinking.
-          %figure
-            = link_to 'projects/segment', class: 'show-more' do
-              .image-wrapper
-                = image_tag('design_thinking_example_2.jpg')
-
-    %section.exhibit
-      %article.intro
-        .inner
-          %h2 Engineering
-          %p
-            I love to build things. Much of my childhood was spent building with
-            legos and constructing weird vehicles out of wagons and scooters and
-            anything I could find in our garage and workshop.
-          %p
-            As a product designer I have implemented most of the interfaces and
-            interactions I have designed. Through close collaboration with engineers I
-            continually strengthen my technical skills and often write tests,
-            javascript and server-side code.
-
-      %article.piece
-        .inner
-          %figcaption
-            .inner
-              %h2 Wiggle Audit Tool
-              = link_to 'https://github.com/frechg/wiggle-audit-tool',
-                target: '_blank'  do
-                A personal project, written in Ruby.
-          %figure
-            = link_to 'https://github.com/frechg/wiggle-audit-tool',
-              target: '_blank', class: 'show-more wiggle-bg'  do
-              .image-wrapper
-                = image_tag('wiggle_audit_tool_4.png')
-
-    %section.exhibit.hide
-      %article.intro
-        .inner
-          %h2 Visual Design
-          %p
-            The true beauty of a product is in how it works. Visual design, in
-            the context of software, is first and foremost about affordances and
-            communication. The value of beautiful aesthetics is greatest when a
-            product is already useful, usable and desirable.
-
-    %section.exhibit
-      %article.intro
-        .inner
-          %h2 Other Works
           %p
             I’ve had the opportunity to work on and play a central role in a
             wide variety of software projects. From leading early stage startups
@@ -116,16 +29,17 @@
             existing products, I’ve always worked to apply holistic systems
             thinking that merges design, technology and business.
 
-      %article.piece#hound
+      %article.piece#segment
         .inner
           %figcaption
             .inner
-              %h2 Hound
-              = link_to 'projects/hound' do
-                A thoughtbot Product - Winter 2015
+              %h2 Segment Marketing Site
+              = link_to 'projects/segment' do
+                Crafting a new marketing story - Fall 2015
           %figure
-            = link_to 'projects/hound', class: 'show-more' do
-              .image-wrapper= image_tag('hound/cover.jpg')
+            = link_to 'projects/segment', class: 'show-more' do
+              .image-wrapper
+                = image_tag('design_thinking_example_2.jpg')
 
       %article.piece#kinscape
         .inner
@@ -138,6 +52,32 @@
             = link_to 'projects/kinscape', class: 'show-more' do
               .image-wrapper= image_tag('kinscape/stories.jpeg')
 
+      %article.piece#hound
+        .inner
+          %figcaption
+            .inner
+              %h2 Hound
+              = link_to 'projects/hound' do
+                A thoughtbot Product - Winter 2015
+          %figure
+            = link_to 'projects/hound', class: 'show-more' do
+              .image-wrapper= image_tag('hound/cover.jpg')
+
+      %article.piece
+        .inner
+          %figcaption
+            .inner
+              %h2 Wiggle Audit Tool
+              = link_to 'https://github.com/frechg/wiggle-audit-tool',
+                target: '_blank'  do
+                Design and development - Spring 2014
+          %figure
+            = link_to 'https://github.com/frechg/wiggle-audit-tool',
+              target: '_blank', class: 'show-more wiggle-bg'  do
+              .image-wrapper
+                = image_tag('wiggle_audit_tool_4.png')
+
+
       %article.piece#bluesky
         .inner
           %figcaption
@@ -148,17 +88,6 @@
           %figure
             = link_to 'projects/bluesky', class: 'show-more' do
               .image-wrapper= image_tag('blue_sky/assessment_finish_1.png')
-
-      %article.piece#cardless
-        .inner
-          %figcaption
-            .inner
-              %h2 Cardless
-              = link_to 'projects/cardless' do
-                Personal Project - December 2013
-          %figure
-            = link_to 'projects/cardless', class: 'show-more' do
-              .image-wrapper= image_tag('cardless/cover_2.png')
 
       %article.piece#tenant
         .inner

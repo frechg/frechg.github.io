@@ -1,21 +1,22 @@
 a.back-home {
-  @include position(fixed, 0% 0 0% 0%);
+  position: fixed;
+  top: 20px;
+  left: 20px;
   @include transition(all 0.25s ease-in-out);
-  border-right: 1px solid $base-border-color;
-  background: rgb(245,245,245);
-  color: $light-font-color;
-  width: 80px;
+  background: $blue;
+  border-radius: 50%;
+  color: #fff;
+  height: 60px;
+  width: 60px;
 
   &:hover {
     background: $green;
-    border-color: shade($green, 10%);
-    color: #fff;
   }
 
   i.fa {
     @include position(absolute, 50% 0 0 50%);
     @include size(40px);
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 40px;
     margin: -20px 0 0 -20px;
     text-align: center;
