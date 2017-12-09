@@ -39,12 +39,14 @@
     figure {
       @include span-columns(8 of 12);
       @include shift(2);
+      box-shadow: 0 1px 10px 0 rgba(0,0,0,0.03);
       position: relative;
 
       &:before, &:after {
         @include transition(all 0.25s ease-out);
         background-color: #fff;
         bottom: 0;
+        border-radius: 3px;
         content: "";
         display: inline-block;
         opacity: 0;
@@ -70,6 +72,8 @@
       }
 
       &:hover {
+        box-shadow: 0 1px 10px 0 rgba(0,0,0,0.05);
+
         &:before {
           @include transform(rotate(-1deg));
           left: -18px;
@@ -87,6 +91,7 @@
 
       a.show-more {
         background: #fff;
+        border-radius: 3px;
         display: block;
         position: relative;
         z-index: 3;

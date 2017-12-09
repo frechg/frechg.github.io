@@ -46,7 +46,8 @@ html {
   z-index: 1;
 
   &:before {
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 3px;
     bottom: 0;
     content: "";
     left: 0;
@@ -61,6 +62,7 @@ html {
   }
 
   img, video {
+    border-radius: 3px;
     display: block;
     width: 100%;
   }
