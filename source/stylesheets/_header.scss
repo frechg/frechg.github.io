@@ -1,6 +1,7 @@
 header.portfolio {
   @include size(100%);
-  background: rgb(46,46,46);
+  background: #fff;
+  //background: rgb(46,46,46);
   position: relative;
   text-align: center;
 
@@ -20,21 +21,21 @@ header.portfolio {
 
     .inner-wrapper {
       @include transition(opacity 1s linear);
-      background: rgb(46,46,46);
+      background: #fff;
       padding: 16% 0;
       position: relative;
     }
   }
 
   h1 {
-    color: #fff;
+    color: rgb(46,46,46);
     letter-spacing: 1px;
     font-size: 1.2em;
     font-weight: 100;
     vertical-align: middle;
 
     strong {
-      border-right: 1px solid rgba(255,255,255,0.5);
+      border-right: 1px solid rgba(0,0,0,0.5);
       display: inline-block;
       margin-right: 0.5em;
       padding-right: 0.6em;
@@ -60,7 +61,7 @@ header.portfolio {
       text-transform: uppercase;
 
       &:hover {
-        color: #fff;
+        color: rgb(46,46,46);
       }
     }
   }
