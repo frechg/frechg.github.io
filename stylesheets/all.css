@@ -3376,10 +3376,10 @@ dl {
 header.portfolio {
   width: 100%;
   height: 100%;
-  background: #2e2e2e;
+  background: #fff;
   position: relative;
   text-align: center; }
-  /* line 7, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+  /* line 8, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
   header.portfolio > article {
     *zoom: 1;
     max-width: 68em;
@@ -3394,7 +3394,7 @@ header.portfolio {
     /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     header.portfolio > article:after {
       clear: both; }
-    /* line 12, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+    /* line 13, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio > article .gradient-border {
       background-image: -webkit-linear-gradient(-440deg, #40FF95, #3E93FD);
       background-image: linear-gradient(170deg, #40FF95, #3E93FD);
@@ -3403,35 +3403,35 @@ header.portfolio {
       position: absolute;
       top: 20%;
       width: 66%; }
-    /* line 21, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+    /* line 22, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio > article .inner-wrapper {
       -webkit-transition: opacity 1s linear;
       -moz-transition: opacity 1s linear;
       transition: opacity 1s linear;
-      background: #2e2e2e;
+      background: #fff;
       padding: 16% 0;
       position: relative; }
-  /* line 29, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+  /* line 30, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
   header.portfolio h1 {
-    color: #fff;
+    color: #2e2e2e;
     letter-spacing: 1px;
     font-size: 1.2em;
     font-weight: 100;
     vertical-align: middle; }
-    /* line 36, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+    /* line 37, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio h1 strong {
-      border-right: 1px solid rgba(255, 255, 255, 0.5);
+      border-right: 1px solid rgba(0, 0, 0, 0.5);
       display: inline-block;
       margin-right: 0.5em;
       padding-right: 0.6em; }
-  /* line 44, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+  /* line 45, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
   header.portfolio nav {
     display: inline-block;
     bottom: 10%;
     left: 0%;
     position: absolute;
     width: 100%; }
-    /* line 51, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+    /* line 52, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio nav a {
       -webkit-transition: all 0.5s ease-out;
       -moz-transition: all 0.5s ease-out;
@@ -3444,9 +3444,9 @@ header.portfolio {
       font-size: 0.8em;
       padding-bottom: 0.6em;
       text-transform: uppercase; }
-      /* line 62, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+      /* line 63, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
       header.portfolio nav a:hover {
-        color: #fff; }
+        color: #2e2e2e; }
 
 /* line 1, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
 #gallery {
@@ -3457,7 +3457,8 @@ header.portfolio {
   /* line 8, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   #gallery article.intro {
     *zoom: 1;
-    text-align: left; }
+    text-align: left;
+    padding-bottom: 2em; }
     /* line 17, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     #gallery article.intro:before, #gallery article.intro:after {
       content: " ";
@@ -3465,7 +3466,7 @@ header.portfolio {
     /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     #gallery article.intro:after {
       clear: both; }
-    /* line 12, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 13, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery article.intro .inner {
       float: left;
       display: block;
@@ -3475,7 +3476,7 @@ header.portfolio {
       /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/neat/grid/_span-columns.scss */
       #gallery article.intro .inner:last-child {
         margin-right: 0; }
-  /* line 18, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 19, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   #gallery article.piece {
     *zoom: 1;
     padding-top: 6em;
@@ -3487,10 +3488,10 @@ header.portfolio {
     /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/bourbon/addons/_clearfix.scss */
     #gallery article.piece:after {
       clear: both; }
-    /* line 23, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 24, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery article.piece + .piece {
       padding-top: 8em; }
-    /* line 27, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 28, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery article.piece.animate figure {
       -webkit-animation: piece 1.2s linear;
       -moz-animation: piece 1.2s linear;
@@ -3498,7 +3499,7 @@ header.portfolio {
       -webkit-animation-fill-mode: both;
       -moz-animation-fill-mode: both;
       animation-fill-mode: both; }
-    /* line 32, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 33, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery article.piece figcaption {
       float: left;
       display: block;
@@ -3506,83 +3507,90 @@ header.portfolio {
       width: 48.93617%;
       margin-left: 25.53191%;
       margin-bottom: 3em;
-      text-align: left; }
+      text-align: center; }
       /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/neat/grid/_span-columns.scss */
       #gallery article.piece figcaption:last-child {
         margin-right: 0; }
-    /* line 39, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     #gallery article.piece figure {
       float: left;
       display: block;
       margin-right: 2.12766%;
       width: 65.95745%;
       margin-left: 17.02128%;
+      box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05);
       position: relative; }
       /* line 40, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/neat/grid/_span-columns.scss */
       #gallery article.piece figure:last-child {
         margin-right: 0; }
-      /* line 44, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+      /* line 46, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
       #gallery article.piece figure:before, #gallery article.piece figure:after {
         -webkit-transition: all 0.25s ease-out;
         -moz-transition: all 0.25s ease-out;
         transition: all 0.25s ease-out;
         background-color: #fff;
+        background-color: #fffcf6;
         bottom: 0;
+        border-radius: 3px;
         content: "";
         display: inline-block;
         opacity: 0;
         position: absolute;
         top: 0px;
         left: 0; }
-      /* line 56, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+      /* line 60, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
       #gallery article.piece figure:before {
         border: 1px solid #e5e5e5;
         box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.03);
         bottom: 5%;
         width: 90%;
         z-index: 1; }
-      /* line 64, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+      /* line 68, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
       #gallery article.piece figure:after {
         border: 1px solid #e1e1e1;
         box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05);
         bottom: 2%;
         width: 96%;
         z-index: 2; }
-      /* line 73, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
-      #gallery article.piece figure:hover:before {
-        -webkit-transform: rotate(-1deg);
-        -moz-transform: rotate(-1deg);
-        -ms-transform: rotate(-1deg);
-        -o-transform: rotate(-1deg);
-        transform: rotate(-1deg);
-        left: -18px;
-        opacity: 1;
-        top: -22px; }
-      /* line 80, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
-      #gallery article.piece figure:hover:after {
-        -webkit-transform: rotate(-0.5deg);
-        -moz-transform: rotate(-0.5deg);
-        -ms-transform: rotate(-0.5deg);
-        -o-transform: rotate(-0.5deg);
-        transform: rotate(-0.5deg);
-        left: -10px;
-        opacity: 1;
-        top: -12px; }
-      /* line 88, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+      /* line 76, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+      #gallery article.piece figure:hover {
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.08); }
+        /* line 79, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+        #gallery article.piece figure:hover:before {
+          -webkit-transform: rotate(-1deg);
+          -moz-transform: rotate(-1deg);
+          -ms-transform: rotate(-1deg);
+          -o-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+          left: -18px;
+          opacity: 1;
+          top: -22px; }
+        /* line 86, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+        #gallery article.piece figure:hover:after {
+          -webkit-transform: rotate(-0.5deg);
+          -moz-transform: rotate(-0.5deg);
+          -ms-transform: rotate(-0.5deg);
+          -o-transform: rotate(-0.5deg);
+          transform: rotate(-0.5deg);
+          left: -10px;
+          opacity: 1;
+          top: -12px; }
+      /* line 94, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
       #gallery article.piece figure a.show-more {
         background: #fff;
+        border-radius: 3px;
         display: block;
         position: relative;
         z-index: 3; }
-        /* line 94, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+        /* line 101, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
         #gallery article.piece figure a.show-more.wiggle-bg {
           background-image: -webkit-linear-gradient(-440deg, #55C1BA, #C970DB);
           background-image: linear-gradient(170deg, #55C1BA, #C970DB); }
 
-/* line 102, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+/* line 109, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
 figcaption {
   margin-bottom: 4em; }
-  /* line 105, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 112, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   figcaption h1, figcaption h2 {
     color: #464646;
     display: inline-block;
@@ -3590,21 +3598,21 @@ figcaption {
     font-size: 1em;
     font-weight: 600;
     margin: 0; }
-  /* line 114, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 121, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   figcaption h2 {
     border-right: 1px solid gainsboro;
     margin-right: 0.5em;
     padding-right: 0.6em; }
-  /* line 120, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 127, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   figcaption span {
     color: #787878;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  /* line 125, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+  /* line 132, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
   figcaption a {
     color: #787878;
     padding-bottom: 0.1em;
     border-bottom: 1px solid transparent; }
-    /* line 130, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
+    /* line 137, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_index.scss */
     figcaption a:hover {
       color: #3E93FD;
       border-color: #3E93FD; }
@@ -3820,6 +3828,17 @@ section.project-overview {
       section.project-overview .project-image .inner:last-child {
         margin-right: 0; }
 
+/* line 88, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+.custom-bullet {
+  padding-left: 50px;
+  position: relative; }
+
+/* line 93, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_projects.scss */
+.emoji-bullet {
+  position: absolute;
+  left: 20px;
+  top: 1px; }
+
 /* line 1, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_modal.scss */
 .modal {
   background-color: rgba(255, 255, 255, 0.9);
@@ -3887,13 +3906,16 @@ html {
     html body.no-scroll {
       overflow: hidden; }
     /* line 30, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+    html body.home {
+      background: floralwhite; }
+    /* line 34, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
     html body .outer-wrapper {
       background: rgba(255, 255, 255, 0.8);
       height: 100%;
       position: relative;
       z-index: 1; }
 
-/* line 39, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+/* line 43, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
 .container {
   *zoom: 1;
   max-width: 68em;
@@ -3908,13 +3930,14 @@ html {
   .container:after {
     clear: both; }
 
-/* line 44, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+/* line 48, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
 .image-wrapper {
   position: relative;
   z-index: 1; }
-  /* line 48, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+  /* line 52, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
   .image-wrapper:before {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
     bottom: 0;
     content: "";
     left: 0;
@@ -3922,14 +3945,19 @@ html {
     right: 0;
     top: 0;
     z-index: 2; }
-  /* line 59, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+  /* line 64, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
   .image-wrapper.no-border:before {
     display: none; }
-  /* line 63, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+  /* line 68, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
   .image-wrapper img, .image-wrapper video {
+    border-radius: 3px;
     display: block;
     width: 100%; }
 
-/* line 69, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+/* line 75, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
 .hide {
   display: none; }
+
+/* line 79, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/all.scss */
+.center-text {
+  text-align: center; }
