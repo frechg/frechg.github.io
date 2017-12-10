@@ -85,13 +85,13 @@ section.project-overview {
   }
 }
 
-p.next-steps {
-  padding-left: 30px;
+.custom-bullet {
+  padding-left: 50px;
   position: relative;
 }
 
-span.scope {
+.emoji-bullet {
   position: absolute;
-  left: 0px;
+  left: 20px;
   top: 1px;
 }

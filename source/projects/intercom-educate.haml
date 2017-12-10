@@ -3,14 +3,179 @@
 .text-wrapper
   .inner
     .project-title
-      %h2 Product onboarding and activation
-      %span Spring 2017
+      %h2 Product activation and help center preview
+      %span Intercom Growth team - Fall 2016
 
-    %h6 The Challenge
     %p
-      Our challenge was to improve the effectiveness of communication on our
-      marketing site by starting with a redesign of the home page.
+      Educate is a knowledge base product by Intercom.
+      = link_to 'Learn more.', 'https://intercom.com/educate'
 
 .project-image
   .inner
-    .image-wrapper.no-border= image_tag('segment/prototypes.jpg')
+    .image-wrapper.no-border= image_tag('intercom/educate/educate.png')
+
+.text-wrapper
+  .inner
+    %h6 Context
+    %p Our team helped support the launch of Educate in the fall of 2016. We updated signup and purchase flows so the product could purchased, created and added content to our setup guide system and built an onboarding experience to help people get started. To make swithcing to our product easy for people who already had a knowledge base, we built a content importer.
+
+    %h6 The problem
+    %p Moving help content from one knowledge base to another is costly and a bocker to product switching.
+
+    %p If you have hundreds of articles in an existing knowledge base, copying or rewriting all of that content would be incredibly time consuming and a reason to stick with your current product.
+
+    %h6 The solution
+    %p An import tool that only requires the URL of your help site.
+
+    %p To create a powerful experience we made the import process as automatic and invisible as possible.
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/start-import.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/import-modal-1.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/import-modal-3.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/importing-1.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/importing-2.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/importing-3.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/import-complete.png')
+
+.text-wrapper
+  .inner
+    %p On the day we launched Educate, over 10,000 articles were imported by existing and new customers.
+
+.text-wrapper
+  .inner
+    %h2 Resolving import errors
+
+    %h6 The problem
+    %p Article content was sometimes missed during import. Articles with missing content couldn’t be considered “finished” until they were reviewed and fixed.
+
+    %h6 The solution
+    %p A workflow for helping people find and replace missing article content.
+
+    %h6 Constraints
+    %p Limited resources meant we would need a solution that required very little engineering time.
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/review-flow-1.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/review-flow-2.png')
+
+.text-wrapper
+  .inner
+    %p We dractically reduced the engineering resources required to impliment the solution by leveraging existing functionality of the article composer. To mark where content was missing we added "missing content" images to articles with missing content.
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/review-flow-3.png')
+
+.text-wrapper
+  .inner
+    %p The missing content images identified what type of content was missing and gave instruction and options for fixing the error.
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/review-flow-4.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/review-flow-5.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/review-flow-6.png')
+
+.text-wrapper
+  .inner
+    %h2 Follow up work
+
+    %h6 How might we improve the post import experience?
+    %p After the launch of Educate I did an assessment of the post import experience and started a side project to improve it.
+
+.project-image
+  .inner
+    .image-wrapper= image_tag('intercom/educate/post-import-eval.png')
+
+.project-image
+  .inner
+    .image-wrapper= image_tag('intercom/educate/ideal-post-import-flow-1.png')
+
+.text-wrapper
+  .inner
+    %h6 My hypothesis
+    %p After importing content, we could celebrate success and motivate trial conversions and further product engagement by showing people their new help center, full of usable content.
+
+    %h6 Insights from research
+    %p People are initially apprehensive about how articles will appear on their help center and feel anxiety about making it public before seeing exactly what it will look like.
+
+    %h6 The solution
+    %p A help center preview experience.
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/new-post-import-system.png')
+
+.text-wrapper
+  .inner
+    %p Previewing after a successful import.
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/hc-preview-1.png')
+
+.text-wrapper
+  .inner
+    %p With usable content available, the primary call to action is to start a trial and turn on your help center.
+
+.project-image
+  .inner
+    .image-wrapper= image_tag('intercom/educate/hc-preview-2.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/hc-preview-3.png')
+
+.project-image
+  .inner
+    .image-wrapper.no-border= image_tag('intercom/educate/hc-preview-4.png')
+
+.text-wrapper
+  .inner
+    %p If the content was only example content, the primary call to action would be to create or import articles.
+
+.project-image
+  .inner
+    .image-wrapper= image_tag('intercom/educate/hc-preview-5.png')
+
+.text-wrapper
+  .inner
+    %h6 Measuring success
+    %p.custom-bullet
+      %span.emoji-bullet 📈
+      %strong Activation:
+      Article creation to trial conversion rate, compairing cohorts who preview and don't
+    %p.custom-bullet
+      %span.emoji-bullet 📈
+      %strong Engagement:
+      Precent of customers who preview before turning the help center on
