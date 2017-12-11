@@ -4,23 +4,24 @@
 .text-wrapper
   .inner
     .project-title
-      %h2 Kinscape
-      %span Client Work - Spring 2014
+      %h2 Kinscape: Story telling for families
+      %span thoughtbot - Spring 2014
 
     %p
-      Kinscape is a family oriented social network that enables families to
-      connect through privately shared stories built around videos, images and
-      audio. The memories captured in Kinscape create a living family history
-      that can be accessed and contributed to by future generations.
+      Kinscape enables families to connect through privately shared stories that are saved as  memories to create a living family history.
 
+.project-image
+  %video{width: '100%', controls: true}
+    %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
+
+.text-wrapper
+  .inner
     %p
-      On this project I worked with a thoughbot developer and a non-technical
-      client team.
+      I worked with a thoughbot developer and a non-technical client team. My role was to lead product strategy and user research and own the design of the product from concept to final interaction and visual design. I would also impliment all of the product UI.
     %p
-      Kinscape is about story telling and to build a powerful story telling tool
-      we needed to deeply understand story telling in the context of families.
+      To build a powerful story telling tool we needed to understand story telling in the context of families.
       Through interviews, research and experimentation with prototypes, we
-      learned about the ways people share stories the things that motivate story
+      learned about the ways people share stories, what motivates story
       telling and the things that make it difficult.
     %p
       For Kinscape to work we needed to give all family members the to ability
@@ -30,10 +31,6 @@
       architecture enabled users to put together stories using media like
       building blocks that they could then elaborate on with captions and
       narrative.
-    %p
-      Inline editing tools and auto saving enabled users to craft their story
-      without worrying about loosing work or how it might look once it gets
-      shared.
 
 .project-image
   .image-wrapper= image_tag('kinscape/story_1.jpeg')
@@ -89,16 +86,9 @@
 .text-wrapper
   .inner
     %p
-      We had learned through interviews and prior research that some people
-      didn’t think that others would be interested in hearing stories from them
-      but would be happy to tell them if others asked. This insight motivated us
+      We learned that some people would only tell a story if they knew others wanted to hear it. This insight motivated us
       to build a feature that enabled users to request stories from existing and
-      invited family members. This functionality also acted as customer
-      acquisition mechanism.
+      invited family members.
 
 .project-image
   .image-wrapper= image_tag('kinscape/request_story_2.jpeg')
-
-.project-image
-  %video{width: '100%', controls: true}
-    %source{src: "/images/kinscape/demo.mp4", type: 'video/mp4'}
