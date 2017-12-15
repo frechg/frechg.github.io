@@ -54,9 +54,11 @@ set :images_dir, 'images'
 # Development-specific configuration
 configure :development do
   activate :dotenv, env: '.env.development'
+  config[:segment] = "jk1be5XHNbUKrjHylukXyQGUeK6KlVsl"
 end
 
 # Build-specific configuration
 configure :build do
   activate :dotenv, env: '.env.build'
+  config[:segment] = "xm2EshW02ZhpMpZdPZH37gj6G5I9pO6d"
 end
