@@ -1,10 +1,6 @@
 #gallery {
   padding-bottom: 12em;
 
-  .exhibit {
-    padding-top: 8em;
-  }
-
   article.intro {
     @include clearfix;
     text-align: left;
@@ -46,7 +42,6 @@
       &:before, &:after {
         @include transition(all 0.25s ease-out);
         background-color: #fff;
-        background-color: rgb(255,252,246);
         bottom: 0;
         border-radius: 3px;
         content: "";
