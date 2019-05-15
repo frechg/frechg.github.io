@@ -3399,40 +3399,42 @@ header.portfolio {
     header.portfolio > article .gradient-border {
       background-image: -webkit-linear-gradient(-435deg, #40ff95, rgba(64, 255, 149, 0) 45%), -webkit-linear-gradient(-255deg, #3e92fd, rgba(62, 147, 253, 0) 35%), -webkit-linear-gradient(-285deg, #fff81f, rgba(255, 253, 62, 0) 100%), -webkit-linear-gradient(-100deg, #d63efd, rgba(253, 62, 208, 0) 100%);
       background-image: linear-gradient(165deg, #40ff95, rgba(64, 255, 149, 0) 45%), linear-gradient(-15deg, #3e92fd, rgba(62, 147, 253, 0) 35%), linear-gradient(15deg, #fff81f, rgba(255, 253, 62, 0) 100%), linear-gradient(-170deg, #d63efd, rgba(253, 62, 208, 0) 100%);
-      left: 16%;
-      padding: 9px;
+      left: 10%;
+      padding: 10px;
       position: absolute;
       top: 20%;
-      width: 66%; }
+      width: 80%;
+      height: auto; }
     /* line 28, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio > article .inner-wrapper {
       -webkit-transition: opacity 1s linear;
       -moz-transition: opacity 1s linear;
       transition: opacity 1s linear;
       background: #fff;
-      padding: 16% 0;
-      position: relative; }
-  /* line 36, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+      padding: 17% 0;
+      position: relative;
+      background-size: cover; }
+  /* line 37, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
   header.portfolio h1 {
     color: #2e2e2e;
     letter-spacing: 1px;
     font-size: 1.2em;
     font-weight: 100;
     vertical-align: middle; }
-    /* line 43, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+    /* line 44, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio h1 strong {
       border-right: 1px solid rgba(0, 0, 0, 0.5);
       display: inline-block;
       margin-right: 0.5em;
       padding-right: 0.6em; }
-  /* line 51, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+  /* line 52, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
   header.portfolio nav {
     display: inline-block;
     bottom: 10%;
     left: 0%;
     position: absolute;
     width: 100%; }
-    /* line 58, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+    /* line 59, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
     header.portfolio nav a {
       -webkit-transition: all 0.5s ease-out;
       -moz-transition: all 0.5s ease-out;
@@ -3445,7 +3447,7 @@ header.portfolio {
       font-size: 0.8em;
       padding-bottom: 0.6em;
       text-transform: uppercase; }
-      /* line 69, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
+      /* line 70, /Users/galenfrechette/Code/frechg.github.io/source/stylesheets/_header.scss */
       header.portfolio nav a:hover {
         color: #2e2e2e; }
 
