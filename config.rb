@@ -6,6 +6,7 @@ activate :deploy do |deploy|
 end
 
 activate :directory_indexes
+activate :livereload
 
 ###
 # Page options, layouts, aliases and proxies
@@ -44,6 +45,8 @@ page "/projects/*", :layout => :project_layout
 #     "Helping"
 #   end
 # end
+
+set :livereload_css_target, nil
 
 set :css_dir, 'stylesheets'
 
