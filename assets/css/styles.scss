@@ -1,0 +1,147 @@
+---
+---
+
+// Main styles
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  max-width: 600px;
+  margin: 40px 0px;
+  padding: 40px 100px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+p,
+a {
+  font-weight: 400;
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+a {
+  background-color: floralwhite;
+  color: olive;
+  text-decoration: none;
+  padding: 0px 4px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: circle;
+
+  li {
+    margin-bottom: 16px;
+  }
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  margin: 40px 0px;
+}
+
+.oneliner {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 24px;
+  margin: 40px 0px;
+}
+
+.header {
+  &__title {
+    margin-bottom: 16px;
+    display: inline-block;
+
+    &:hover {
+      cursor: zoom-in;
+
+      .header__avatar {
+        border-color: blueviolet;
+      }
+    }
+  }
+
+  &__title-top {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 2px;
+    margin-bottom: -14px;
+  }
+
+  &__avatar {
+    display: inline-block;
+    border: 2px solid black;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    left: -2px;
+
+    &-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__name {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #000000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__tagline {
+    margin: 0px 0px 8px 0px;
+  }
+
+  &__nav {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+
+    li {
+      margin: 0px;
+    }
+  }
+}
+
+.idea {
+  &__title {
+    margin: 0px;
+  }
+
+  &__date {
+    color: gray;
+    margin: 0px;
+    font-style: italic;
+  }
+}
