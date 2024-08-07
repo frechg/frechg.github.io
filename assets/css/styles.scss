@@ -71,15 +71,6 @@ hr {
 .header {
   &__title {
     margin-bottom: 16px;
-    display: inline-block;
-
-    &:hover {
-      cursor: zoom-in;
-
-      .header__avatar {
-        border-color: blueviolet;
-      }
-    }
   }
 
   &__title-top {
@@ -102,6 +93,10 @@ hr {
     overflow: hidden;
     position: relative;
     left: -2px;
+
+    &:hover {
+      cursor: zoom-in;
+    }
 
     &-img {
       width: 100%;
