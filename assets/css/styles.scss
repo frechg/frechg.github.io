@@ -9,6 +9,11 @@ body {
   max-width: 600px;
   margin: 40px 0px;
   padding: 40px 100px;
+
+  @media (max-width: 800px) {
+    margin: 0px 0px;
+    padding: 40px 40px;
+  }
 }
 
 h1,
