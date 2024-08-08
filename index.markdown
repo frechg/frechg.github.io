@@ -11,8 +11,7 @@ permalink: /
   <section class="profile__section">
     <p>
       <strong>Currently</strong> exploring startup ideas and looking for
-      co-founders. Read about the ideas I’m developing below, and reach out if your
-      interested!
+      co-founders. Read about the ideas I’m developing below, and let me know what you think.
     </p>
   </section>
   <section class="profile__section">
@@ -40,3 +39,7 @@ permalink: /
     {% endfor %}
   </ul>
 </section>
+
+---
+
+Send me a message: galenfrechette@gmail.com
