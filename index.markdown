@@ -39,7 +39,3 @@ permalink: /
     {% endfor %}
   </ul>
 </section>
-
----
-
-Send message: [galenfrechette@gmail.com](mailto:galenfrechette@gmail.com)
