@@ -42,4 +42,4 @@ permalink: /
 
 ---
 
-Send me a message: galenfrechette@gmail.com
+Send message: [galenfrechette@gmail.com](mailto:galenfrechette@gmail.com)
