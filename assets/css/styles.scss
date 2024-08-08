@@ -33,7 +33,7 @@ a {
 
 a {
   background-color: floralwhite;
-  color: olive;
+  color: darkolivegreen;
   text-decoration: none;
   padding: 0px 4px;
 
@@ -64,35 +64,33 @@ hr {
 
 .oneliner {
   font-family: "Reenie Beanie", cursive;
-  font-size: 24px;
+  font-size: 26px;
   margin: 40px 0px;
 }
 
 .header {
   &__title {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   &__title-top {
     display: flex;
     align-items: center;
     flex-direction: row;
-    column-gap: 2px;
-    // margin-bottom: -14px;
+    column-gap: 6px;
   }
 
   &__avatar {
     display: inline-block;
-    border: 4px solid black;
-    width: 30px;
-    height: 30px;
+    border: 0px solid black;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     position: relative;
-    left: -2px;
 
     &:hover {
       cursor: zoom-in;
@@ -106,10 +104,9 @@ hr {
   }
 
   &__name {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
     margin: 0px;
-    // text-transform: uppercase;
     background: linear-gradient(45deg, #000000, #000000);
     -webkit-background-clip: text;
     background-clip: text;

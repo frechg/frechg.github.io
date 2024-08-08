@@ -11,13 +11,13 @@ permalink: /
   <section class="profile__section">
     <p>
       <strong>Currently</strong> exploring startup ideas and looking for
-      co-founders. Read about the ideas I’m developing below, and let me know what you think.
+      a CTO co-founder. Read about the ideas I’m developing below, and let me know what you think.
     </p>
   </section>
   <section class="profile__section">
     <p>
       <strong>Recently</strong> (2021), enabled by an all-in bet on
-      Tesla in 2019, I took 3 years to invest in developing my knowledge and
+      Tesla in 2018, I took 3 years to invest in developing my knowledge and
       understanding of the world. While living in SEA I studied technology,
       global challenges, history, economics, math, and science. This included building and launching
       <a href="https://www.elogram.app" target="_blank">elogram.app</a> in 2023,

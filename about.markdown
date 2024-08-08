@@ -13,13 +13,13 @@ of product and business systems.
 I'm a generalist. My core
 strength is my ability to learn and persist. I'm also good with system design and strategy development. People appreciate my abilty to generate ideas and provide a macro perspective. I deliver high-quality execution in design and code, while rapidly iterating.
 
-I’m from Plattsburgh, NY. I grew up outdoors and playing sports. Music production was a creative outlet. The internet connected me with the world. In college, at RPI, I studied engineering and design. My drive to change the world with technology started then.
+I’m from [Plattsburgh, NY](https://en.wikipedia.org/wiki/Plattsburgh,_New_York). I grew up outdoors and playing sports. Music production was a creative outlet. The internet connected me with the world. In college, at RPI, I studied engineering and design. My mission to change the world with technology began then.
 
 I like to be active outdoors: on bikes, surf, and snow. My passion is for learning. I read sci-fi and history, study economics, technology, and geo politics. A consistent meditation practice helps expand my awareness.
 
 ### Work highlights
 
-- 2023, designed, built and launched [elogram.app](https://www.elogram.app), a mobile
+- elogram, 2023, built and launched [elogram.app](https://www.elogram.app), a mobile
   app for family stories. Used the project to build
   full stack engineering skills.
 
