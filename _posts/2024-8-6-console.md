@@ -16,4 +16,4 @@ The average software creator of the future will be more like a generalist, worki
 
 Familier interfaces like terminals, text editors and digital canvases will remain, giving creators full control. The embedded Console AI will have context on the whole project: PRDs, designs, code, and more. The AI can collaborate with the user at any point in their flow and can act as a teacher, helping users learn their way to great solutions.
 
-The mission of Console is to increase access to the power of software.
+The mission is to increase access to the value creating power of software.
