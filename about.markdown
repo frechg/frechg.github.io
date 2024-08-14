@@ -17,6 +17,7 @@ I’m from [Plattsburgh, NY](https://en.wikipedia.org/wiki/Plattsburgh,_New_York
 
 I like to be active outdoors: on bikes, surf, and snow. My passion is for learning. I read sci-fi and history, study economics, technology, and geo politics. A consistent meditation practice helps expand my awareness.
 
+
 ### Work highlights
 
 - elogram, 2023, built and launched [elogram.app](https://www.elogram.app), a mobile
@@ -35,3 +36,11 @@ I like to be active outdoors: on bikes, surf, and snow. My passion is for learni
   consulting service.
 
 [Learn more about my career](https://www.linkedin.com/in/galenfrechette/)
+
+### Other things I've done
+
+- 2022, lived in Chiang Mai and Bangkok Thailand, Bali Indonesia, Singapore, and Tokyo and Kyoto Japan.
+
+- 2018, rode my bike up Mauna Kea with a friend. It's known as the [hardest bike climb in the world](https://pjammcycling.com/climb/1.Mauna-Kea). 
+
+- 2011, moved to Boston with $1,500 I saved from deliverying pizza. Pitched a CEO at an MIT conference to get my first job at a startup. 
