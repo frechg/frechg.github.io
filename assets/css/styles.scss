@@ -5,7 +5,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
-  color: #000000;
+  color: darkslategray;
   max-width: 600px;
   margin: 40px 0px;
   padding: 40px 100px;
@@ -32,10 +32,8 @@ a {
 }
 
 a {
-  background-color: floralwhite;
-  color: darkolivegreen;
+  color: dodgerblue;
   text-decoration: none;
-  padding: 0px 4px;
 
   &:hover {
     text-decoration: underline;
@@ -83,8 +81,8 @@ hr {
   &__avatar {
     display: inline-block;
     border: 0px solid black;
-    width: 36px;
-    height: 36px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -123,7 +121,7 @@ hr {
     list-style: none;
     display: flex;
     flex-direction: row;
-    column-gap: 8px;
+    column-gap: 16px;
 
     li {
       margin: 0px;
